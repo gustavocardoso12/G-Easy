@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="MiniPaint.Sem_Triang"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="529" Width="378">
+    <Viewbox Stretch="Fill" Height="450" Width="294">
+        <Grid Height="529" Margin="0,0,-328,0">
+
+
+            <Grid x:Name="grade1" HorizontalAlignment="Left" Height="513" Margin="-221,103,-214,-87" VerticalAlignment="Top" Width="1141">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.6"/>
+                        <ScaleTransform ScaleY="0.6"/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.447"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+
+                <Grid HorizontalAlignment="Left" Height="206" Margin="44,94,0,0" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+
+
+                    <Polygon x:Name="triangulo"
+    				Points="140,280 300,95 450,285 140,280"
+    				Stroke="#FF0A5078" 
+    				StrokeThickness="2" Margin="179,-129,-297,-61" RenderTransformOrigin="0.5,0.5" Height="396">
+                        <Polygon.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform   ScaleY="1.2" ScaleX="-1"/>
+                                <SkewTransform AngleY="-0.4" AngleX="0"/>
+
+                                <RotateTransform/>
+                                <TranslateTransform Y="-1.96"/>
+                            </TransformGroup>
+                        </Polygon.RenderTransform>
+                        <Polygon.Fill>
+                            <SolidColorBrush Color="#FF01EB80" Opacity="0.4"/>
+                        </Polygon.Fill>
+                    </Polygon>
+
+
+                </Grid>
+            </Grid>
+            <Grid x:Name="Escolha" HorizontalAlignment="Left" Height="204" Margin="49,325,0,0" VerticalAlignment="Top" Width="290">
+                <Label Content="Escolha o Fator de Proporcionalidade (Em %)" HorizontalAlignment="Left" Margin="10,42,-138,0" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14" Width="418"/>
+                <Button Content="Exibir Triângulo Semelhante" HorizontalAlignment="Left" Height="54"  Margin="28,140,0,0"  VerticalAlignment="Top" Width="262" FontFamily="Arial" FontSize="14" BorderBrush="#FFDAE6F0" BorderThickness="4"  Background="#FF2F463C" Foreground="#FFFBFBFB" FontWeight="Bold" Click="Button_Click_2"/>
+                <ComboBox x:Name="pro" HorizontalAlignment="Left" Margin="85,92,0,0" VerticalAlignment="Top" Width="120" FontFamily="Verdana" FontSize="14">
+                    <ComboBox.GroupStyle>
+                        <GroupStyle/>
+                        <GroupStyle/>
+                    </ComboBox.GroupStyle>
+                    <ComboBoxItem Content="100" FontSize="14" FontFamily="Verdana"/>
+                    <ComboBoxItem Content="150"/>
+                    <ComboBoxItem Content="200"/>
+                    <ComboBoxItem Content="250"/>
+                    <ComboBoxItem Opacity="3" Content="300"/>
+                    <ComboBoxItem Content="350"/>
+                    <ComboBoxItem Opacity="4"/>
+                </ComboBox>
+            </Grid>
+            <Grid x:Name="grade1_Copy" HorizontalAlignment="Left" Height="380" Margin="126,-87,0,0" VerticalAlignment="Top" Width="484">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.6"/>
+                        <ScaleTransform ScaleY="0.6"/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.447"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+
+                <Grid HorizontalAlignment="Left" Height="206" Margin="44,94,0,0" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+
+
+                    <Polygon x:Name="triangulo1"
+        			Points="140,280 300,95 450,285 140,280"
+        			Stroke="#FF0A5078" 
+        			StrokeThickness="2" Margin="108,180,-179,-362" RenderTransformOrigin="0.5,0.5">
+                        <Polygon.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="1.2" ScaleX="-1"/>
+                                <SkewTransform AngleY="-0.4" AngleX="0"/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="0"/>
+                            </TransformGroup>
+                        </Polygon.RenderTransform>
+                        <Polygon.Fill>
+                            <SolidColorBrush Color="#FF01EB80" Opacity="0.4"/>
+                        </Polygon.Fill>
+                    </Polygon>
+
+
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Viewbox>
+</UserControl>

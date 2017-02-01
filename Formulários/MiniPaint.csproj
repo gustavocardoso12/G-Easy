@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C2585E6-A4BC-48AF-B706-A1BC02E10250}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MiniPaint</RootNamespace>
+    <AssemblyName>SharpGLWinformsApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cyotek.Drawing.BitmapFont">
+      <HintPath>..\packages\Cyotek.Drawing.BitmapFont.1.0.2.0\lib\net20\Cyotek.Drawing.BitmapFont.dll</HintPath>
+    </Reference>
+    <Reference Include="Granite.Commons">
+      <HintPath>..\packages\Granite.Commons.2.0.1\lib\net40\Granite.Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="Granite.Modeling">
+      <HintPath>..\packages\Granite.Modeling.2.0.0\lib\net40\Granite.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit">
+      <HintPath>..\packages\HelixToolkit.2015.1.558\lib\portable-net4+sl4+wp71+win8\HelixToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit.Wpf, Version=2015.1.558.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <HintPath>..\packages\HelixToolkit.Wpf.2015.1.558\lib\net40\HelixToolkit.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit.Wpf.SharpDX">
+      <HintPath>..\packages\HelixToolkit.Wpf.SharpDX.2015.1.558\lib\net40\HelixToolkit.Wpf.SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SharpDX">
+      <HintPath>..\packages\SharpDX.2.5.0\lib\net40\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.D3DCompiler">
+      <HintPath>..\packages\SharpDX.D3DCompiler.2.5.0\lib\net40\SharpDX.D3DCompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1">
+      <HintPath>..\packages\SharpDX.Direct2D1.2.5.0\lib\net40\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\packages\SharpDX.Direct3D11.2.5.0\lib\net40\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11.Effects">
+      <HintPath>..\packages\SharpDX.Direct3D11.Effects.2.5.0\lib\net40\SharpDX.Direct3D11.Effects.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9">
+      <HintPath>..\packages\SharpDX.Direct3D9.2.5.0\lib\net40\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\packages\SharpDX.DXGI.2.5.0\lib\net40\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit">
+      <HintPath>..\packages\SharpDX.Toolkit.2.5.0\lib\net40\SharpDX.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit.Graphics">
+      <HintPath>..\packages\SharpDX.Toolkit.Graphics.2.5.0\lib\net40\SharpDX.Toolkit.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL, Version=2.3.0.1, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGLCore.2.3.0.1\lib\net40\SharpGL.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph, Version=2.3.0.1, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGLCore.2.3.0.1\lib\net40\SharpGL.SceneGraph.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpGL.WinForms, Version=2.3.0.1, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGLforWinForms.2.3.0.1\lib\net40\SharpGL.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WpfShapes">
+      <HintPath>..\packages\WpfShapes.0.1\lib\net40\WpfShapes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaDeSuperficie_Esfera.xaml.cs">
+      <DependentUpon>AreaDeSuperficie_Esfera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AreaLateralCilindro.xaml.cs">
+      <DependentUpon>AreaLateralCilindro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AreaLateralCone.xaml.cs">
+      <DependentUpon>AreaLateralCone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AreaLateral_Cubo.xaml.cs">
+      <DependentUpon>AreaLateral_Cubo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AreaTotalCilindro.xaml.cs">
+      <DependentUpon>AreaTotalCilindro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AreaTotal_Cubo.xaml.cs">
+      <DependentUpon>AreaTotal_Cubo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro_confirmado1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro_confirmado1.Designer.cs">
+      <DependentUpon>Cadastro_confirmado1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsResize.cs" />
+    <Compile Include="Confirma_Cadastro1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirma_Cadastro1.Designer.cs">
+      <DependentUpon>Confirma_Cadastro1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cubo.xaml.cs">
+      <DependentUpon>cubo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cubo_Diagonal.xaml.cs">
+      <DependentUpon>Cubo_Diagonal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dados_Invalidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dados_Invalidos.Designer.cs">
+      <DependentUpon>Dados_Invalidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dados_Ja_Cadastrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dados_Ja_Cadastrados.Designer.cs">
+      <DependentUpon>Dados_Ja_Cadastrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diagonal_caixa.xaml.cs">
+      <DependentUpon>Diagonal_caixa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dimensoes_Iguais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dimensoes_Iguais.Designer.cs">
+      <DependentUpon>Dimensoes_Iguais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodecaedro.xaml.cs">
+      <DependentUpon>Dodecaedro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Esfera_Setor.xaml.cs">
+      <DependentUpon>Esfera_Setor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ESSE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESSE1.Designer.cs">
+      <DependentUpon>ESSE1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Alunos1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Alunos1.Designer.cs">
+      <DependentUpon>FRM_Alunos1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geratriz_Piramide.xaml.cs">
+      <DependentUpon>Geratriz_Piramide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Icosaedro.xaml.cs">
+      <DependentUpon>Icosaedro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Icosaedro1.xaml.cs">
+      <DependentUpon>Icosaedro1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mensagem_Numero_Vazio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensagem_Numero_Vazio.Designer.cs">
+      <DependentUpon>Mensagem_Numero_Vazio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniPaint2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniPaint2.Designer.cs">
+      <DependentUpon>MiniPaint2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniPaint51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniPaint51.Designer.cs">
+      <DependentUpon>MiniPaint51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniPaint_Formulario41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniPaint_Formulario41.Designer.cs">
+      <DependentUpon>MiniPaint_Formulario41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniPaint_Formulario51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniPaint_Formulario51.Designer.cs">
+      <DependentUpon>MiniPaint_Formulario51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSG21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSG21.Designer.cs">
+      <DependentUpon>MSG21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSG22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSG22.Designer.cs">
+      <DependentUpon>MSG22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSG23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSG23.Designer.cs">
+      <DependentUpon>MSG23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSG24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSG24.Designer.cs">
+      <DependentUpon>MSG24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSG25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSG25.Designer.cs">
+      <DependentUpon>MSG25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSG26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSG26.Designer.cs">
+      <DependentUpon>MSG26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OKDataSet.cs">
+      <DependentUpon>OKDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OKDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OKDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Paralelepipedo_Area.xaml.cs">
+      <DependentUpon>Paralelepipedo_Area.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Planos_Retas.xaml.cs">
+      <DependentUpon>Planos_Retas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pl_Concorrentes.xaml.cs">
+      <DependentUpon>Pl_Concorrentes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Posicoes_Retas_Concorrentes.xaml.cs">
+      <DependentUpon>Posicoes_Retas_Concorrentes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Posições_Retas.xaml.cs">
+      <DependentUpon>Posições_Retas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RetasPerpendiculares.xaml.cs">
+      <DependentUpon>RetasPerpendiculares.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sem_Triang.xaml.cs">
+      <DependentUpon>Sem_Triang.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sobre.Designer.cs">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sobre_nintendo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sobre_nintendo1.Designer.cs">
+      <DependentUpon>sobre_nintendo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tetraedro.xaml.cs">
+      <DependentUpon>Tetraedro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TrianguloeQuadCircuferencia.xaml.cs">
+      <DependentUpon>TrianguloeQuadCircuferencia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triangulo_Area.xaml.cs">
+      <DependentUpon>Triangulo_Area.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Prisma.xaml.cs">
+      <DependentUpon>Prisma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Esfera.xaml.cs">
+      <DependentUpon>Esfera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cone.xaml.cs">
+      <DependentUpon>Cone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paralelepipedo.xaml.cs">
+      <DependentUpon>Paralelepipedo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cilindro.xaml.cs">
+      <DependentUpon>cilindro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Quadrado_Area.xaml.cs">
+      <DependentUpon>Quadrado_Area.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Retangulo_Area.xaml.cs">
+      <DependentUpon>Retangulo_Area.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl5.xaml.cs">
+      <DependentUpon>UserControl5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ValidaCPF.cs" />
+    <Compile Include="WIIMOTELIB\AccelCalibrationInfo.cs" />
+    <Compile Include="WIIMOTELIB\AccelState.cs" />
+    <Compile Include="WIIMOTELIB\BalanceBoardCalibrationInfo.cs" />
+    <Compile Include="WIIMOTELIB\BalanceBoardSensors.cs" />
+    <Compile Include="WIIMOTELIB\BalanceBoardSensorsF.cs" />
+    <Compile Include="WIIMOTELIB\BalanceBoardState.cs" />
+    <Compile Include="WIIMOTELIB\ButtonState.cs" />
+    <Compile Include="WIIMOTELIB\ClassicControllerButtonState.cs" />
+    <Compile Include="WIIMOTELIB\ClassicControllerCalibrationInfo.cs" />
+    <Compile Include="WIIMOTELIB\ClassicControllerState.cs" />
+    <Compile Include="WIIMOTELIB\DataContract.cs" />
+    <Compile Include="WIIMOTELIB\DataMember.cs" />
+    <Compile Include="WIIMOTELIB\DrumsState.cs" />
+    <Compile Include="WIIMOTELIB\ExtensionType.cs" />
+    <Compile Include="WIIMOTELIB\GuitarButtonState.cs" />
+    <Compile Include="WIIMOTELIB\GuitarFretButtonState.cs" />
+    <Compile Include="WIIMOTELIB\GuitarState.cs" />
+    <Compile Include="WIIMOTELIB\GuitarType.cs" />
+    <Compile Include="WIIMOTELIB\HIDImports.cs" />
+    <Compile Include="WIIMOTELIB\InputReport.cs" />
+    <Compile Include="WIIMOTELIB\IRMode.cs" />
+    <Compile Include="WIIMOTELIB\IRSensitivity.cs" />
+    <Compile Include="WIIMOTELIB\IRSensor.cs" />
+    <Compile Include="WIIMOTELIB\IRState.cs" />
+    <Compile Include="WIIMOTELIB\LastReadStatus.cs" />
+    <Compile Include="WIIMOTELIB\LEDState.cs" />
+    <Compile Include="WIIMOTELIB\MotionPlusState.cs" />
+    <Compile Include="WIIMOTELIB\NunchukCalibrationInfo.cs" />
+    <Compile Include="WIIMOTELIB\NunchukState.cs" />
+    <Compile Include="WIIMOTELIB\Point.cs" />
+    <Compile Include="WIIMOTELIB\Point3.cs" />
+    <Compile Include="WIIMOTELIB\Point3F.cs" />
+    <Compile Include="WIIMOTELIB\PointF.cs" />
+    <Compile Include="WIIMOTELIB\TaikoDrumState.cs" />
+    <Compile Include="WIIMOTELIB\Wiimote.cs" />
+    <Compile Include="WIIMOTELIB\WiimoteChangedEventArgs.cs" />
+    <Compile Include="WIIMOTELIB\WiimoteCollection.cs" />
+    <Compile Include="WIIMOTELIB\WiimoteException.cs" />
+    <Compile Include="WIIMOTELIB\WiimoteExtensionChangedEventArgs.cs" />
+    <Compile Include="WIIMOTELIB\WiimoteNotFoundException.cs" />
+    <Compile Include="WIIMOTELIB\WiimoteState.cs" />
+    <Compile Include="Wiimote_Mouse1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wiimote_Mouse1.Designer.cs">
+      <DependentUpon>Wiimote_Mouse1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cadastro_confirmado1.resx">
+      <DependentUpon>Cadastro_confirmado1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirma_Cadastro1.resx">
+      <DependentUpon>Confirma_Cadastro1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dados_Invalidos.resx">
+      <DependentUpon>Dados_Invalidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dados_Ja_Cadastrados.resx">
+      <DependentUpon>Dados_Ja_Cadastrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dimensoes_Iguais.resx">
+      <DependentUpon>Dimensoes_Iguais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESSE1.resx">
+      <DependentUpon>ESSE1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Alunos1.resx">
+      <DependentUpon>FRM_Alunos1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensagem_Numero_Vazio.resx">
+      <DependentUpon>Mensagem_Numero_Vazio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSG21.resx">
+      <DependentUpon>MSG21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSG22.resx">
+      <DependentUpon>MSG22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSG23.resx">
+      <DependentUpon>MSG23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSG24.resx">
+      <DependentUpon>MSG24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSG25.resx">
+      <DependentUpon>MSG25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSG26.resx">
+      <DependentUpon>MSG26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sobre_nintendo1.resx">
+      <DependentUpon>sobre_nintendo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wiimote_Mouse1.resx">
+      <DependentUpon>Wiimote_Mouse1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="octaedro.obj" />
+    <None Include="Resources\icone_geometriaplana.png" />
+    <None Include="Resources\icone_geometriaplana3.png" />
+    <None Include="Resources\volume_esfera-1.png" />
+    <Content Include="sharpdx_direct3d11_effects_x64.dll" />
+    <Content Include="sharpdx_direct3d11_effects_x86.dll" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniPaint2.resx">
+      <DependentUpon>MiniPaint2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniPaint51.resx">
+      <DependentUpon>MiniPaint51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniPaint_Formulario41.resx">
+      <DependentUpon>MiniPaint_Formulario41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniPaint_Formulario51.resx">
+      <DependentUpon>MiniPaint_Formulario51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="OKDataSet.xsc">
+      <DependentUpon>OKDataSet.xsd</DependentUpon>
+    </None>
+    <Content Include="OKDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OKDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="OKDataSet.xss">
+      <DependentUpon>OKDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Original_transparent_103x75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OK.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AreaDeSuperficie_Esfera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaLateralCilindro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaLateralCone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaLateral_Cubo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaTotalCilindro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaTotal_Cubo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cubo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cubo_Diagonal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Diagonal_caixa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dodecaedro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Esfera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Esfera_Setor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Geratriz_Piramide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Icosaedro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Icosaedro1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paralelepipedo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cilindro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paralelepipedo_Area.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Planos_Retas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pl_Concorrentes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Posicoes_Retas_Concorrentes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Posições_Retas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RetasPerpendiculares.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sem_Triang.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tetraedro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrianguloeQuadCircuferencia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Triangulo_Area.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Prisma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Quadrado_Area.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Retangulo_Area.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

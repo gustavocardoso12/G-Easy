@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="MiniPaint.Posições_Retas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+              xmlns:h="http://helix-toolkit.org/wpf"
+            d:DesignHeight="529" Width="378">
+    <Grid Height="529" Width="378">
+        <h:HelixViewport3D x:Name="camera"   Opacity="0.8" HorizontalAlignment="Left" Width="618" ShowCameraTarget="False" ShowViewCube="False" Margin="-136,26,-104,201" ChangeFieldOfViewCursor="No" RotateCursor="Hand" AllowDrop="True"  CameraRotationMode="Trackball" RenderTransformOrigin="0.561,0.509" >
+            <h:HelixViewport3D.RotateGesture>
+                <MouseGesture MouseAction="LeftClick" Modifiers=""/>
+            </h:HelixViewport3D.RotateGesture>
+            <h:CuttingPlaneGroup>
+            <h:ArrowVisual3D Point1="-4,2,4" Point2="4,4,6" HeadLength="0" ThetaDiv="3" Diameter="0.1"></h:ArrowVisual3D>
+                <h:ArrowVisual3D Point1="-4,5.2,4" Point2="4,6,6" HeadLength="0" ThetaDiv="3" Diameter="0.1"></h:ArrowVisual3D>
+            </h:CuttingPlaneGroup>
+        </h:HelixViewport3D>
+        <Label Content="R // S =0" HorizontalAlignment="Left" Margin="146,328,0,0" VerticalAlignment="Top" FontFamily="Verdana" FontSize="24"/>
+    </Grid>
+</UserControl>
