@@ -1,0 +1,4 @@
+Antes de abrir o executável é necessário instalar estes dois programas : 
+
+---AccessDataBaseEngine (necessário para carregar o banco de dados)
+---htmlhelp (necessário para que o computador abra arquivos de ajuda html 2.0)

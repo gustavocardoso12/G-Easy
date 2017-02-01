@@ -1,0 +1,2 @@
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\x64\Debug\SharpGLWinformsApplication3.exe.config
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\x64\Debug\SharpGLWinformsApplication3.exe.config

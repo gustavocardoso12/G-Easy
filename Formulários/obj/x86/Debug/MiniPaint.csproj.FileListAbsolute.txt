@@ -1,0 +1,899 @@
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\miniPaint.csproj.GenerateResource.Cache
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+c:\users\peixinho\documents\visual studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+C:\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+C:\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.SharpGLForm1.resources
+C:\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.SharpGLForm2.resources
+C:\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Principal.resources
+C:\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.CalibrationForm.resources
+C:\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.CalibrationForm.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.SharpGLForm2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.SharpGLForm1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Principal1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\SharpGLWinformsApplication3\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_form_recuperar_senha1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xsd
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\OKDataSet.Designer.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xsc
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xss
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_Content.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.g.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Cone.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Cone.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Cyotek.Drawing.BitmapFont.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.lref
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\WpfShapes.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Splash.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.WiimoteGyroMouse11.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.ESSE1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\cubo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\cubo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Mensagem_Numero_Vazio.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dimensoes_Iguais.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG21.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Invalidos.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Ja_Cadastrados.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cubo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cone.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cubo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cone.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_Content.g.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.lref
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xsd
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.Designer.cs
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xsc
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xss
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Cyotek.Drawing.BitmapFont.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\WpfShapes.dll
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.baml
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.g.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Invalidos.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Ja_Cadastrados.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dimensoes_Iguais.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.ESSE1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Mensagem_Numero_Vazio.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG21.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Splash.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Wiimote_Mouse1.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG22.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG23.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG24.resources
+D:\SamsungRecovery\SamsungData\DataBackup#(2015-07-28.155842)\C Drive\Users\Peixinho\Documents\Visual Studio 2013\Projects\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Sobre.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xsd
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.Designer.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xsc
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\OKDataSet.xss
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Cyotek.Drawing.BitmapFont.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\WpfShapes.dll
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cubo.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cone.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cubo.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Cone.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_Content.g.cs
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.cache
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.lref
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.baml
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.g.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Invalidos.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Ja_Cadastrados.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dimensoes_Iguais.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.ESSE1.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Mensagem_Numero_Vazio.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG21.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG22.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG23.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG24.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Sobre.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Splash.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Wiimote_Mouse1.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+C:\Users\h\Desktop\GEASY - Cópia - Cópia (5)\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Cyotek.Drawing.BitmapFont.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\WpfShapes.dll
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cubo.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cone.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cubo.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cone.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_Content.g.cs
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.cache
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.lref
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.baml
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.g.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Cadastro_confirmado1.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Confirma_Cadastro1.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Invalidos.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Ja_Cadastrados.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dimensoes_Iguais.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.ESSE1.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.FRM_Alunos1.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Mensagem_Numero_Vazio.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG21.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG22.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG23.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG24.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Sobre.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Splash.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Wiimote_Mouse1.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.sobre_nintendo1.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG25.resources
+C:\Users\h\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG26.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Cyotek.Drawing.BitmapFont.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\WpfShapes.dll
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cubo.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cone.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cubo.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cone.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_Content.g.cs
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.cache
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.lref
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.baml
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.g.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Cadastro_confirmado1.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Confirma_Cadastro1.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Invalidos.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Ja_Cadastrados.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dimensoes_Iguais.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.ESSE1.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.FRM_Alunos1.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Mensagem_Numero_Vazio.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG21.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG22.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG23.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG24.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG25.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG26.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Sobre.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.sobre_nintendo1.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Splash.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Wiimote_Mouse1.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+D:\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe.config
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.exe
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\OK.accdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.exe
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGLWinformsApplication3.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Cyotek.Drawing.BitmapFont.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\WpfShapes.dll
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Commons.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\Granite.Modeling.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\HelixToolkit.Wpf.SharpDX.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D11.Effects.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.SceneGraph.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.pdb
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\bin\Debug\SharpGL.WinForms.xml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cubo.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cone.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaDeSuperficie_Esfera.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCilindro.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateralCone.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaLateral_Cubo.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotalCilindro.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\AreaTotal_Cubo.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cubo.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cubo_Diagonal.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Diagonal_caixa.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Dodecaedro.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Cone.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Esfera_Setor.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Geratriz_Piramide.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Icosaedro1.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Paralelepipedo_Area.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Planos_Retas.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Pl_Concorrentes.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posicoes_Retas_Concorrentes.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Posições_Retas.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\RetasPerpendiculares.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Sem_Triang.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Tetraedro.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\TrianguloeQuadCircuferencia.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Triangulo_Area.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Prisma.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Quadrado_Area.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\Retangulo_Area.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\UserControl5.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_Content.g.cs
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.cache
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3_MarkupCompile.lref
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\cilindro.baml
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\SharpGLWinformsApplication3.g.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Cadastro_confirmado1.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Confirma_Cadastro1.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Invalidos.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dados_Ja_Cadastrados.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Dimensoes_Iguais.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.ESSE1.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.FRM_Alunos1.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Mensagem_Numero_Vazio.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG21.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG22.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG23.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG24.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG25.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MSG26.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Sobre.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.sobre_nintendo1.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Splash.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Wiimote_Mouse1.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Form2.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint2.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint51.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario41.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.MiniPaint_Formulario51.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.Properties.Resources.resources
+C:\Users\Gustavo\Desktop\TCC CADASTRO OK\SharpGLWinformsApplication3\obj\x86\Debug\MiniPaint.csproj.GenerateResource.Cache
