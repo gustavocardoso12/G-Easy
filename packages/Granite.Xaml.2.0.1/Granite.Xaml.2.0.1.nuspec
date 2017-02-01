@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Granite.Xaml</id>
+    <version>2.0.1</version>
+    <authors>Jonathan Allen</authors>
+    <owners>Jonathan Allen</owners>
+    <licenseUrl>http://granite.codeplex.com/license</licenseUrl>
+    <projectUrl>http://granite.codeplex.com/</projectUrl>
+    <iconUrl>http://download.codeplex.com/Download?ProjectName=granite&amp;DownloadId=303116&amp;Build=18301</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library for working with XAML</description>
+    <language>en-US</language>
+    <tags>.net45</tags>
+    <dependencies>
+      <dependency id="Granite.Commons" version="2.0.1" />
+      <dependency id="Granite.Modeling" version="2.0.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="Granite.Xaml.dll" />
+    </references>
+  </metadata>
+</package>

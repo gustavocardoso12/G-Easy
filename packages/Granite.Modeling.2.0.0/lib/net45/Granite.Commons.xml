@@ -1,0 +1,1001 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Granite.Commons</name>
+    </assembly>
+    <members>
+        <member name="T:Granite.Collections.CollectionUtilities">
+            <summary>
+            Utility methods for collection classes. 
+            </summary>
+        </member>
+        <member name="M:Granite.Collections.CollectionUtilities.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Adds a list of values into the target collection. 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="target"></param>
+            <param name="list"></param>
+        </member>
+        <member name="M:Granite.Collections.CollectionUtilities.AddRange``1(System.Collections.Generic.ICollection{``0},``0[])">
+            <summary>
+            Adds a list of values into the target collection. 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="target"></param>
+            <param name="list"></param>
+        </member>
+        <member name="M:Granite.Collections.CollectionUtilities.InsertRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Inserts a list of values into the target collection. 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="target"></param>
+            <param name="startingIndex"></param>
+            <param name="list"></param>
+            <remarks>This isn't as fast as a real InsertRange, it just adds one item at a time.</remarks>
+        </member>
+        <member name="M:Granite.Collections.CollectionUtilities.RemoveRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">
+            <summary>
+            Removes count items from the collection
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <param name="startingIndex"></param>
+            <param name="count"></param>
+            <remarks>This isn't as fast as a real RemoveRange, it just removes one item at a time.</remarks>
+        </member>
+        <member name="M:Granite.Collections.CollectionUtilities.SelectRange``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">
+            <summary>
+            Selects items from the collection based on a certain range
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <param name="startingIndex"></param>
+            <param name="count"></param>
+        </member>
+        <member name="T:Granite.Collections.ExtendedObservableCollection`1">
+            <summary>
+            This is an ObservableCollection with a read-only wrapper and support for weak events.
+            This will use weak events to listen to objects implementing INotifyPropertyChangedWeak.
+            This will use normal events to listen to objects implementing INotifyPropertyChanged.
+            </summary>
+            <typeparam name="T">The type of elements in the collection.</typeparam>
+        </member>
+        <member name="T:Granite.Eventing.INotifyCollectionChangedWeak">
+            <summary>
+            This interface allows attaching and removing weak event handlers that listen for CollectionChanged events
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.INotifyCollectionChangedWeak.AddHandler(Granite.Eventing.IListener{System.Collections.Specialized.NotifyCollectionChangedEventArgs})">
+            <summary>
+            Attach a weak event handler to this object
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Eventing.INotifyCollectionChangedWeak.RemoveHandler(Granite.Eventing.IListener{System.Collections.Specialized.NotifyCollectionChangedEventArgs})">
+            <summary>
+            Remove a weak event handler from this object
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="T:Granite.Eventing.INotifyPropertyChangedWeak">
+            <summary>
+            This interface allows attaching and removing weak event handlers that listen for CollectionChanged events
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.INotifyPropertyChangedWeak.AddHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Attach a weak event handler to this object
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Eventing.INotifyPropertyChangedWeak.RemoveHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Remove a weak event handler from this object
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="T:Granite.Eventing.INotifyItemPropertyChangedWeak">
+            <summary>
+            This interface allows attaching and removing weak event handlers that listen for CollectionChanged events
+            </summary>
+        </member>
+        <member name="T:Granite.Eventing.INotifyItemPropertyChanged">
+            <summary>
+            Indicates that property change notifications on child objects are relayed by this class
+            </summary>
+        </member>
+        <member name="E:Granite.Eventing.INotifyItemPropertyChanged.ItemPropertyChanged">
+            <summary>
+            Use this event to listen for changes to properties on items contained by this object without having to explicitly attach an event handler to each item.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.INotifyItemPropertyChangedWeak.AddHandler(Granite.Eventing.IListener{Granite.Eventing.RelayedEventArgs{System.ComponentModel.PropertyChangedEventArgs}})">
+            <summary>
+            Attach a weak event handler to this object
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Eventing.INotifyItemPropertyChangedWeak.RemoveHandler(Granite.Eventing.IListener{Granite.Eventing.RelayedEventArgs{System.ComponentModel.PropertyChangedEventArgs}})">
+            <summary>
+            Remove a weak event handler from this object
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="F:Granite.Collections.ExtendedObservableCollection`1.m_ListeningToItemEvents">
+            <summary>
+            When someone attaches to the ItemPropertyChanged event this is set to true and we start listening for change notifications.
+            </summary>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.OnItemAdded(`0)">
+            <summary>
+            This fires after an item is removed from the collection no matter how it is removed.
+            </summary>
+            <param name="item"></param>
+            <remarks>Triggered by SetItem, RemoveItem, and ClearItems.</remarks>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.OnItemRemoved(`0)">
+            <summary>
+            This fires after an item is removed from the collection no matter how it is removed.
+            </summary>
+            <param name="item"></param>
+            <remarks>Triggered by SetItem, RemoveItem, and ClearItems.</remarks>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.ClearItems">
+            <summary>
+            Removes all elements from the collection.
+            </summary>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.SetItem(System.Int32,`0)">
+            <summary>
+            Replaces the element at the specified index.
+            </summary>
+            <param name="index">The zero-based index of the element to replace.</param>
+            <param name="item">The new value for the element at the specified index.</param>
+            <remarks>Do NOT invoke this method directly. This may be overridden to provide additional validation before an item is added to the collection.</remarks>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.InsertItem(System.Int32,`0)">
+            <summary>
+            Inserts an item into the collection at the specified index.
+            </summary>
+            <param name="index">The zero-based index at which item should be inserted.</param>
+            <param name="item">The object to insert.</param>
+            <remarks>Do NOT invoke this method directly. This may be overridden to provide additional validation before an item is added to the collection.</remarks>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.RemoveItem(System.Int32)">
+            <summary>
+            Removes the element at the specified index of the <see cref="T:System.Collections.ObjectModel.Collection`1" />.
+            </summary>
+            <param name="index">
+            The zero-based index of the element to remove.
+            </param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="index" /> is less than zero -or-<paramref name="index" /> is equal to or greater than <see cref="P:System.Collections.ObjectModel.Collection`1.Count" />.
+            </exception>
+            <remarks>Do NOT invoke this method directly. This may be overridden to provide additional validation before an item is removed to the collection.</remarks>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.#ctor">
+            <summary>
+            Initializes a new instance of the ImprovedObservableCollection class.
+            </summary>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.#ctor(System.Collections.Generic.List{`0})">
+            <summary>
+            Initializes a new instance of the ImprovedObservableCollection class that contains elements copied from the specified list.
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initializes a new instance of the ImprovedObservableCollection class that contains elements copied from the specified collection.
+            </summary>
+            <param name="collection"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the <see cref="E:System.Collections.ObjectModel.ObservableCollection`1.PropertyChanged" /> event with the provided arguments.
+            </summary>
+            <param name="propertyName">
+            Property that is being changed.
+            </param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.AddHandler(Granite.Eventing.IListener{System.Collections.Specialized.NotifyCollectionChangedEventArgs})">
+            <summary>
+            Adds a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.RemoveHandler(Granite.Eventing.IListener{System.Collections.Specialized.NotifyCollectionChangedEventArgs})">
+            <summary>
+            Removes a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.AddHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Adds a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.RemoveHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Removes a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.AddHandler(Granite.Eventing.IListener{Granite.Eventing.RelayedEventArgs{System.ComponentModel.PropertyChangedEventArgs}})">
+            <summary>
+            Adds a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.RemoveHandler(Granite.Eventing.IListener{Granite.Eventing.RelayedEventArgs{System.ComponentModel.PropertyChangedEventArgs}})">
+            <summary>
+            Removes a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds a list of values to this collection
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedObservableCollection`1.ListenToEvents">
+            <summary>
+            This enables the ItemPropertyChanged events. 
+            </summary>
+        </member>
+        <member name="E:Granite.Collections.ExtendedObservableCollection`1.ItemAdded">
+            <summary>
+            This type safe event fires after an item is added to the collection no matter how it is added.
+            </summary>
+            <remarks>Triggered by InsertItem and SetItem</remarks>
+        </member>
+        <member name="E:Granite.Collections.ExtendedObservableCollection`1.ItemRemoved">
+            <summary>
+            This type safe event fires after an item is removed from the collection no matter how it is removed.
+            </summary>
+            <remarks>Triggered by SetItem, RemoveItem, and ClearItems</remarks>
+        </member>
+        <member name="E:Granite.Collections.ExtendedObservableCollection`1.PropertyChanged">
+            <summary>
+            This just exposes the INotifyPropertyChanged.PropertyChanged from the base class so you don't have to cast to get to it.
+            </summary>
+        </member>
+        <member name="P:Granite.Collections.ExtendedObservableCollection`1.ReadOnlyWrapper">
+            <summary>
+            Returns a read-only wrapper around this collection. 
+            </summary>
+            <remarks>
+            If subclassing this class then it may be useful to shadow ReadOnlyWrapper method 
+            with one that returns a subclass of ExtendedReadOnlyObservableCollection.
+            </remarks>
+        </member>
+        <member name="E:Granite.Collections.ExtendedObservableCollection`1.ItemPropertyChanged">
+            <summary>
+            Use this event to listen for changes to properties on items contained by this collection without having to explicitly attach an event handler to each item.
+            </summary>
+        </member>
+        <member name="T:Granite.Collections.ExtendedReadOnlyObservableCollection`1">
+            <summary>
+            A ReadOnlyObservableCollection that includes the functionality from ExtendedObservableCollection. 
+            </summary>
+            <typeparam name="T">The type of elements in the collection.</typeparam>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.#ctor(Granite.Collections.ExtendedObservableCollection{`0})">
+            <summary>
+            Initializes a new instance of the ExtendedReadOnlyObservableCollection
+            class that serves as a wrapper around the specified System.Collections.ObjectModel.ObservableCollection.
+            </summary>
+            <param name="list">
+            The System.Collections.ObjectModel.ObservableCollection with which to
+            create this instance of the System.Collections.ObjectModel.ReadOnlyObservableCollection
+            class.
+            </param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Raises the CollectionChanged
+            event using the provided arguments.
+            </summary>
+            <param name="args">Arguments of the event being raised.</param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the PropertyChanged
+            event using the provided arguments.
+            </summary>
+            <param name="propertyName">Arguments of the event being raised.</param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the PropertyChanged
+            event using the provided arguments.
+            </summary>
+            <param name="args">Arguments of the event being raised.</param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.AddHandler(Granite.Eventing.IListener{System.Collections.Specialized.NotifyCollectionChangedEventArgs})">
+            <summary>
+            Adds a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.RemoveHandler(Granite.Eventing.IListener{System.Collections.Specialized.NotifyCollectionChangedEventArgs})">
+            <summary>
+            Removes a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.AddHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Adds a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.RemoveHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Removes a weak event handler
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Collections.ExtendedReadOnlyObservableCollection`1.OnSourcePropertyChanged(System.String)">
+            <summary>
+            This method is called when a property on the source collection changes. You may use this to forward property change notifications for properties on this class that wrap the source collection.
+            </summary>
+            <remarks>
+            This will not forward the properties "Count" and "Item[]". 
+            </remarks>
+        </member>
+        <member name="E:Granite.Collections.ExtendedReadOnlyObservableCollection`1.CollectionChanged">
+            <summary>
+            Occurs when an item is added or removed.
+            </summary>
+        </member>
+        <member name="E:Granite.Collections.ExtendedReadOnlyObservableCollection`1.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="E:Granite.Collections.ExtendedReadOnlyObservableCollection`1.ItemPropertyChanged">
+            <summary>
+            Use this event to listen for changes to properties on items contained by this collection without having to explicitly attach an event handler to each item.
+            </summary>
+        </member>
+        <member name="P:Granite.Collections.ExtendedReadOnlyObservableCollection`1.SourceList">
+            <summary>
+            The list being wrapped.
+            </summary>
+        </member>
+        <member name="T:Granite.Collections.WeakReferenceCollection`1">
+            <summary>
+            This represents a collection of weak references. 
+            </summary>
+            <typeparam name="T">The type of elements in the collection.</typeparam>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.Add(`0)">
+            <summary>
+            Adds a weak reference to the indicated item
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds a list of values to this collection
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.Clear">
+            <summary>
+            Removes all items from the collection
+            </summary>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.Contains(`0)">
+            <summary>
+            Returns true if the item is found in the collection
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            Copies a snapshot of the collection to an array. 
+            </summary>
+            <param name="array"></param>
+            <param name="arrayIndex"></param>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.Remove(`0)">
+            <summary>
+            Removes the indicated item from the array
+            </summary>
+            <param name="item"></param>
+            <returns>Returns true if the collection previously contained the item</returns>
+            <remarks>If an item appears more than once only the first instance will be removed.</remarks>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.CleanUp">
+            <summary>
+            Removes the dead references from the collection
+            </summary>
+        </member>
+        <member name="M:Granite.Collections.WeakReferenceCollection`1.GetEnumerator">
+            <summary>
+            Returns an enumerator containing references that were live at the time this is called.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Granite.Collections.WeakReferenceCollection`1.Count">
+            <summary>
+            Returns the count of live objects.
+            </summary>
+            <remarks>For a more accurate count call CleanUp before reading this property.</remarks>
+        </member>
+        <member name="P:Granite.Collections.WeakReferenceCollection`1.System#Collections#Generic#ICollection{T}#IsReadOnly">
+            <summary>
+            Always returns true
+            </summary>
+        </member>
+        <member name="T:Granite.ComponentModel.DictionaryChangedEventArgs">
+            <summary>
+            Used to notify when a dictionary has been changed.
+            </summary>
+        </member>
+        <member name="M:Granite.ComponentModel.DictionaryChangedEventArgs.#ctor(Granite.ComponentModel.NotifyDictionaryChangedAction)">
+            <summary>
+            Used when resetting the dictionary
+            </summary>
+            <param name="action">Must be Reset</param>
+        </member>
+        <member name="M:Granite.ComponentModel.DictionaryChangedEventArgs.#ctor(Granite.ComponentModel.NotifyDictionaryChangedAction,System.Object,System.Object)">
+            <summary>
+            Used when adding or removing items
+            </summary>
+            <param name="action"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Granite.ComponentModel.DictionaryChangedEventArgs.#ctor(Granite.ComponentModel.NotifyDictionaryChangedAction,System.Object,System.Object,System.Object)">
+            <summary>
+            Used when replacing an item
+            </summary>
+            <param name="action"></param>
+            <param name="key"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Granite.ComponentModel.DictionaryChangedEventArgs.Action">
+            <summary>
+            The action that was performed.
+            </summary>
+        </member>
+        <member name="P:Granite.ComponentModel.DictionaryChangedEventArgs.NewValue">
+            <summary>
+            The newly added item.
+            </summary>
+        </member>
+        <member name="P:Granite.ComponentModel.DictionaryChangedEventArgs.OldValue">
+            <summary>
+            The removed or replaced item.
+            </summary>
+        </member>
+        <member name="P:Granite.ComponentModel.DictionaryChangedEventArgs.Key">
+            <summary>
+            The key for the added or removed item
+            </summary>
+        </member>
+        <member name="T:Granite.ComponentModel.IChangeTrackingGraph">
+            <summary>
+            This interface allows the walking of an object graph looking for unsaved changes
+            </summary>
+        </member>
+        <member name="M:Granite.ComponentModel.IChangeTrackingGraph.IsChangedGraph">
+            <summary>
+            Walk the graph looking for unsaved changes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.ComponentModel.INotifyCollectionChanged`1">
+            <summary>
+            This raises type-safe events 
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyCollectionChanged`1.ItemAdded">
+            <summary>
+            This type safe event fires after an item is added to the collection no matter how it is added.
+            </summary>
+            <remarks>Triggered by InsertItem and SetItem</remarks>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyCollectionChanged`1.ItemRemoved">
+            <summary>
+            This type safe event fires after an item is removed from the collection no matter how it is removed.
+            </summary>
+            <remarks>Triggered by SetItem, RemoveItem, and ClearItems</remarks>
+        </member>
+        <member name="T:Granite.ComponentModel.INotifyDictionaryChanged">
+            <summary>
+            Used to notify when the dictionary changes
+            </summary>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyDictionaryChanged.DictionaryChanged">
+            <summary>
+            Indicates the dictionary changed.
+            </summary>
+        </member>
+        <member name="T:Granite.ComponentModel.INotifyDictionaryChanged`2">
+            <summary>
+            Used to notify when the dictionary changes
+            </summary>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyDictionaryChanged`2.ValueAdded">
+            <summary>
+            This type safe event fires after a value is added to the dictionary no matter how it is added.
+            </summary>
+            <remarks>Triggered by ???</remarks>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyDictionaryChanged`2.ValueRemoved">
+            <summary>
+            This type safe event fires after a value is removed from the dictionary no matter how it is removed.
+            </summary>
+            <remarks>Triggered by ???</remarks>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyDictionaryChanged`2.KeyAdded">
+            <summary>
+            This type safe event fires after a key is added to the dictionary no matter how it is added.
+            </summary>
+            <remarks>Triggered by ???</remarks>
+        </member>
+        <member name="E:Granite.ComponentModel.INotifyDictionaryChanged`2.KeyRemoved">
+            <summary>
+            This type safe event fires after a key is removed from the dictionary no matter how it is removed.
+            </summary>
+            <remarks>Triggered by ???</remarks>
+        </member>
+        <member name="T:Granite.ComponentModel.ItemEventArgs`1">
+            <summary>
+            This is used for ItemAdded and ItemRemoved events to indicate which item was affected.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Granite.ComponentModel.ItemEventArgs`1.#ctor(`0)">
+            <summary>
+            Create a new instance of ItemEventArgs with the indicated item.
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="P:Granite.ComponentModel.ItemEventArgs`1.Item">
+            <summary>
+            Item that was added or removed
+            </summary>
+        </member>
+        <member name="T:Granite.ComponentModel.NotifyDictionaryChangedAction">
+            <summary>
+            Describes the action that caused a INotifyCollectionChanged.DictionaryChanged event.
+            </summary>
+        </member>
+        <member name="F:Granite.ComponentModel.NotifyDictionaryChangedAction.Add">
+            <summary>
+            One or more items were added to the dictionary.
+            </summary>
+        </member>
+        <member name="F:Granite.ComponentModel.NotifyDictionaryChangedAction.Remove">
+            <summary>
+                One or more items were removed from the dictionary.
+            </summary>
+        </member>
+        <member name="F:Granite.ComponentModel.NotifyDictionaryChangedAction.Replace">
+            <summary>
+                One or more items were replaced in the dictionary.
+            </summary>
+        </member>
+        <member name="F:Granite.ComponentModel.NotifyDictionaryChangedAction.Reset">
+            <summary>
+                The content of the dictionary changed dramatically.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.CalculatedFieldAttribute">
+            <summary>
+            Apply this attribute to indicate which properties affect this calculated property. 
+            Classes that inherit from ModelBase will use this information to automatically throw the appropriate property changed events.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.CalculatedFieldAttribute.#ctor(System.String)">
+            <summary>
+            Apply this attribute to indicate which properties affect this calculated property. 
+            Classes that inherit from ModelBase will use this information to automatically throw the appropriate property changed events.
+            </summary>
+            <param name="sources">Comma separated list of properties that, when changed, invalidate this property. Whitespace will be trimmed.</param>
+        </member>
+        <member name="P:Granite.Modeling.CalculatedFieldAttribute.SourceProperties">
+            <summary>
+            List of properties that, when changed, invalidate this property
+            </summary>
+        </member>
+        <member name="P:Granite.Modeling.CalculatedFieldAttribute.Sources">
+            <summary>
+            Comma separated list of properties that, when changed, invalidate this property
+            </summary>
+        </member>
+        <member name="T:Granite.DataAnnotations.ValidationResultCollection">
+            <summary>
+            Collection of validation results
+            </summary>
+        </member>
+        <member name="M:Granite.DataAnnotations.ValidationResultCollection.Add(System.String,System.String[])">
+            <summary>
+            Adds a new validation result to the collection
+            </summary>
+            <param name="errorMessage"></param>
+            <param name="memberNames"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Eventing.CollectionChangedEventManager">
+            <summary>
+            This is used to attach weak event handlers to the indicated source.
+            </summary>
+            <remarks>
+            If a class encapsulates this then it should also implement INotifyCollectionChangedWeak.
+            </remarks>
+        </member>
+        <member name="T:Granite.Eventing.EventManager`1">
+            <summary>
+            This is used to attach weak event handlers to the indicated source. 
+            </summary>
+            <typeparam name="T">The type of event being listened to.</typeparam>
+        </member>
+        <member name="M:Granite.Eventing.EventManager`1.AttachToEvent">
+            <summary>
+            The implementation of this event must attach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.EventManager`1.DetachFromEvent">
+            <summary>
+            The implementation of this event must deattach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.EventManager`1.EventFired(System.Object,`0)">
+            <summary>
+            This dispatches the event to all of the listeners
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Granite.Eventing.EventManager`1.AddHandler(Granite.Eventing.IListener{`0})">
+            <summary>
+            Adds a weak event handler.
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Eventing.EventManager`1.RemoveHandler(Granite.Eventing.IListener{`0})">
+            <summary>
+            Removes a weak event handler.
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Eventing.CollectionChangedEventManager.#ctor(System.Collections.Specialized.INotifyCollectionChanged)">
+            <summary>
+            Creates a new CollectionChangedEventManager.
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="M:Granite.Eventing.CollectionChangedEventManager.AttachToEvent">
+            <summary>
+            The implementation of this event must attach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.CollectionChangedEventManager.DetachFromEvent">
+            <summary>
+            The implementation of this event must deattach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="T:Granite.Eventing.IListener`1">
+            <summary>
+            Used for weak event callbacks
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Granite.Eventing.IListener`1.Invoke(System.Object,`0)">
+            <summary>
+            This is the callback on the listener
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Granite.Eventing.ItemPropertyChangedEventManager">
+            <summary>
+            This is used to attach weak event handlers to the indicated source.
+            </summary>
+            <remarks>
+            If a class encapsulates this then it should also implement INotifyItemPropertyChangedWeak.
+            </remarks>
+        </member>
+        <member name="M:Granite.Eventing.ItemPropertyChangedEventManager.#ctor(Granite.Eventing.INotifyItemPropertyChanged)">
+            <summary>
+            Creates a new CollectionChangedEventManager.
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="M:Granite.Eventing.ItemPropertyChangedEventManager.AttachToEvent">
+            <summary>
+            The implementation of this event must attach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.ItemPropertyChangedEventManager.DetachFromEvent">
+            <summary>
+            The implementation of this event must deattach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="T:Granite.Eventing.Listener`1">
+            <summary>
+            The object that is referenced by the eventHandler must keep a reference to this class. 
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.Listener`1.#ctor(System.Action{System.Object,`0})">
+            <summary>
+            The object that is referenced by the eventHandler must keep a reference to this class. 
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.Listener`1.Invoke(System.Object,`0)">
+            <summary>
+            Invokes the assocated delegate
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Granite.Eventing.PropertyChangedEventManager">
+            <summary>
+            This is used to attach weak event handlers to the indicated source.
+            </summary>
+            <remarks>
+            If a class encapsulates this then it should also implement INotifyPropertyChangedWeak.
+            </remarks>
+        </member>
+        <member name="M:Granite.Eventing.PropertyChangedEventManager.#ctor(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>
+            Creates a new CollectionChangedEventManager.
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="M:Granite.Eventing.PropertyChangedEventManager.AttachToEvent">
+            <summary>
+            The implementation of this event must attach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.PropertyChangedEventManager.DetachFromEvent">
+            <summary>
+            The implementation of this event must deattach the event source to the EventFired method.
+            </summary>
+        </member>
+        <member name="T:Granite.Eventing.RelayedEventArgs">
+            <summary>
+            A relayed event wraps a sender/event args pair so that it can be forwarded by another class.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.RelayedEventArgs.Create``1(System.Object,``0)">
+            <summary>
+            Create a new relayed event from an existing event
+            </summary>
+        </member>
+        <member name="T:Granite.Eventing.RelayedEventArgs`1">
+            <summary>
+            A relayed event wraps a sender/event args pair so that it can be forwarded by another class.
+            </summary>
+        </member>
+        <member name="M:Granite.Eventing.RelayedEventArgs`1.#ctor(System.Object,`0)">
+            <summary>
+            Create a new relayed event from an existing event
+            </summary>
+        </member>
+        <member name="P:Granite.Eventing.RelayedEventArgs`1.EventArgs">
+            <summary>
+            The wrapped event args
+            </summary>
+        </member>
+        <member name="P:Granite.Eventing.RelayedEventArgs`1.OriginalSender">
+            <summary>
+            The object that raised the origial event
+            </summary>
+        </member>
+        <member name="T:Granite.Eventing.RelayedEventHandler`1">
+            <summary>
+            This represents a relayed event. That is, an event that has both an immediate and and original source.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Granite.ExceptionUtilities">
+            <summary>
+            Utiltiies for working with exceptions
+            </summary>
+        </member>
+        <member name="M:Granite.ExceptionUtilities.ArgumentOutOfRangeException(System.String,System.Object,System.String)">
+            <summary>
+            This is used to create an ArgumentOutOfRangeException that includes the actual value. On some platforms an AnnotatedArgumentOutOfRangeException needs to be created instead of a ArgumentOutOfRangeException.
+            </summary>
+            <param name="paramName"></param>
+            <param name="actualValue"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Metadata.ClassMetadata">
+            <summary>
+            Cached Metadata about the indicated type.
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.ClassMetadata.Properties">
+            <summary>
+            Properties on the indicated class
+            </summary>
+        </member>
+        <member name="T:Granite.Metadata.MetadataCache">
+            <summary>
+            Cache's metadata feteched via reflection.
+            </summary>
+        </member>
+        <member name="M:Granite.Metadata.MetadataCache.GetMetadata(System.Type)">
+            <summary>
+            Gets the metadata for the indicated type.
+            </summary>
+            <param name="type">The type of interest</param>
+            <returns>A thread-safe copy of the class's metadata</returns>
+            <remarks>Actually fetching the metadata requires taking a lock. Therefore it is advisable to locally cache the metadata as well.</remarks>
+        </member>
+        <member name="T:Granite.Metadata.PropertyMetadata">
+            <summary>
+            This is a cache of metadata about a specific property.
+            </summary>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadata.InvokeGet(System.Object)">
+            <summary>
+            Invokes this property's getter on the supplied object
+            </summary>
+            <param name="target"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadata.InvokeSet(System.Object,System.Object)">
+            <summary>
+            Invokes this property's setter on the supplied object
+            </summary>
+            <param name="target"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadata.AddCalculatedField(Granite.Metadata.PropertyMetadata)">
+            <summary>
+            Adds a property to the list of calculated values watching this property.
+            </summary>
+            <param name="affectedProperty"></param>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.AffectsCalculatedFields">
+            <summary>
+            Returns true of this property needs to trigger updates to calculated fields
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.CalculatedFields">
+            <summary>
+            This returns a list of calculated fields that need to be updated when this property is changed.
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.CanRead">
+            <summary>
+            Returns true if there is a public getter
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.CanWrite">
+            <summary>
+            Returns true is there is a public setter
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.Name">
+            <summary>
+            Public name of the property
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.PropertyInfo">
+            <summary>
+            Cached PropertyInfo for the property.
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.PropertyType">
+            <summary>
+            Gets the type of this property.
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.PropertyChangedEventArgs">
+            <summary>
+            Gets a cached instance of PropertyChangedEventArgs
+            </summary>
+            <remarks>For indexed properties such as "Item [Int32]" the property name will be reduced to "Item[]" to match ObservableCollection.</remarks>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.IsIndexed">
+            <summary>
+            Returns true if this represents an indexed property
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadata.Validators">
+            <summary>
+            List of validators that apply to the property
+            </summary>
+        </member>
+        <member name="T:Granite.Metadata.PropertyMetadataCollection">
+            <summary>
+            Immutable collection of PropertyMetadata
+            </summary>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadataCollection.Contains(Granite.Metadata.PropertyMetadata)">
+             <summary>
+             Returns true if the property is known
+             </summary>
+            <param name="item">item to look for</param>
+             <returns></returns>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadataCollection.Contains(System.String)">
+            <summary>
+            Returns true if the property is known
+            </summary>
+            <param name="propertyName">case insensitive property name</param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadataCollection.CopyTo(Granite.Metadata.PropertyMetadata[],System.Int32)">
+            <summary>
+             Copies the collection elements to an existing array
+            </summary>
+            <param name="array">The one-dimensional System.Array that is the destination of the elements</param>
+            <param name="arrayIndex">The zero-based index in array at which copying begins.</param>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadataCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadataCollection.TryGetValue(System.String,Granite.Metadata.PropertyMetadata@)">
+            <summary>
+            Attempts to fetch property metadata for the indicated property. Will not throw an error if not found.
+            </summary>
+            <param name="propertyName">case insensitive property name</param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Metadata.PropertyMetadataCollection.Add(Granite.Metadata.PropertyMetadata)">
+            <summary>
+            Adds a property to the collection
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadataCollection.Count">
+            <summary>
+            Returns the number of known properties
+            </summary>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadataCollection.Item(System.String)">
+            <summary>
+            Attempts to fetch property metadata for the indicated property. Will throw an error if not found.
+            </summary>
+            <param name="propertyName">
+            Case insensitive property name.
+            For indexed properties the parameter types should appear inside brackets. For example, "Item [Int32]".
+            Note: "Item[]" will be mapped to "Item [Int32]"
+            </param>
+            <returns></returns>
+        </member>
+        <member name="P:Granite.Metadata.PropertyMetadataCollection.PropertyNames">
+            <summary>
+            Returns a copy of the list of known property names.
+            </summary>
+        </member>
+        <member name="T:Granite.StringUtilities">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Granite.StringUtilities.IsNullOrWhiteSpace(System.String)">
+            <summary>
+            Used for platforms that don't natively support this function.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
