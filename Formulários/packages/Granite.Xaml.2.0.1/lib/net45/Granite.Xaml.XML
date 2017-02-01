@@ -1,0 +1,896 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Granite.Xaml</name>
+    </assembly>
+    <members>
+        <member name="T:Granite.Xaml.Converters.ValueConversion">
+            <summary>
+            This represents a IValueConverter conversion function.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.DelegateConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DelegateConverter.#ctor(Granite.Xaml.Converters.ValueConversion)">
+            <summary>
+            
+            </summary>
+            <param name="convert"></param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DelegateConverter.#ctor(Granite.Xaml.Converters.ValueConversion,Granite.Xaml.Converters.ValueConversion)">
+            <summary>
+            
+            </summary>
+            <param name="convert"></param>
+            <param name="convertBack"></param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DelegateConverter.#ctor(System.Func{System.Object,System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="convert"></param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DelegateConverter.#ctor(System.Func{System.Object,System.Object},System.Func{System.Object,System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="convert"></param>
+            <param name="convertBack"></param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DelegateConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+            <param name="value">
+            The source data being passed to the target.
+            </param>
+            <param name="targetType">
+            The <see cref="T:System.Type" /> of data expected by the target dependency property.
+            </param>
+            <param name="parameter">
+            An optional parameter to be used in the converter logic.
+            </param>
+            <param name="culture">
+            The culture of the conversion.
+            </param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DelegateConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+            <param name="value">
+            The target data being passed to the source.
+            </param>
+            <param name="targetType">
+            The <see cref="T:System.Type" /> of data expected by the source object.
+            </param>
+            <param name="parameter">
+            An optional parameter to be used in the converter logic.
+            </param>
+            <param name="culture">
+            The culture of the conversion.
+            </param>
+        </member>
+        <member name="T:Granite.Xaml.Converters.DictionaryConverter">
+            <summary>
+            This performs a dictionary lookup for conversion. The IDictionary is passed as the converter parameter.
+            Convert goes from Key-->Value.
+            ConvertBack goes from Value-->Key using the first matching value.
+            If a key/value isn't found in the dictionary then default(targetType) is returned.
+            If the value parameter is null then default(targetType) is returned.
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.Converters.MarkupValueConverter`1">
+            <summary>
+            Base class for value converters that are also exposed as a markup extension.
+            </summary>
+            <typeparam name="T">T is always the class inherits from MarkupValueConverter.</typeparam>
+            <remarks>To save memory instances of this class are created and then replaced with a singleton</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.#ctor">
+            <summary>
+            This constructor verifies the concrete type was passed as the T parameter.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. 
+            </summary>
+            <returns>
+            A converted value. If the method returns null, the valid null value is used.
+            </returns>
+            <param name="value">
+            The value produced by the binding source.
+            </param>
+            <param name="targetType">
+            The type of the binding target property.
+            </param>
+            <param name="parameter">
+            The converter parameter to use.
+            </param>
+            <param name="culture">
+            The culture to use in the converter.
+            </param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. 
+            </summary>
+            <returns>
+            A converted value. If the method returns null, the valid null value is used.
+            </returns>
+            <param name="value">
+            The value that is produced by the binding target.
+            </param>
+            <param name="targetType">
+            The type to convert to.
+            </param>
+            <param name="parameter">
+            The converter parameter to use.
+            </param>
+            <param name="culture">
+            The culture to use in the converter.
+            </param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.ProvideValue(System.IServiceProvider)">
+            <summary>
+            When implemented in a derived class, returns an object that is set as the value of the target property for this markup extension. 
+            </summary>
+            <returns>
+            The object value to set on the property where the extension is applied. 
+            </returns>
+            <param name="serviceProvider">
+            Object that can provide services for the markup extension.
+            </param>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.Default(System.Type)">
+            <summary>
+            Returns Default(targetType)
+            </summary>
+            <param name="targetType"></param>
+            <returns>Null for reference types, and empty instance for value types</returns>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckTargetType(System.Type,System.Type[])">
+            <summary>
+            Throws an exception if the indicated type isn't in the list of valid types.
+            </summary>
+            <param name="targetType">Type to check</param>
+            <param name="validTargetTypes">List of types that are valid.</param>
+            <remarks>This does not look at type inheritance</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckValueType(System.Object,System.Type[])">
+            <summary>
+            Throws an exception if the indicated value isn't in the list of valid types.
+            </summary>
+            <param name="value">value being converted</param>
+            <param name="validValueTypes">List of types that are valid.</param>
+            <remarks>This does not look at type inheritance</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckValueType``1(System.Object)">
+            <summary>
+            Throws an exception if the indicated value isn't in the indicated type
+            </summary>
+            <typeparam name="TValueType"></typeparam>
+            <param name="value">value being convereted</param>
+            <remarks>This does not look at type inheritance</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckParameterType``1(System.Object)">
+            <summary>
+            Throws an exception if the indicated value isn't in the indicated type
+            </summary>
+            <typeparam name="TValueType"></typeparam>
+            <param name="parameter">parameter being used for conversion</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckRequiredParameterType``1(System.Object)">
+            <summary>
+            Throws an exception if the indicated value isn't in the indicated type
+            </summary>
+            <typeparam name="TValueType"></typeparam>
+            <param name="parameter">parameter being used for conversion</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckParameterType(System.Object,System.Type[])">
+            <summary>
+            Throws an exception if the indicated value isn't null or the indicated type
+            </summary>
+            <param name="parameter">parameter being used for conversion</param>
+            <param name="validParameterTypes"></param>
+            <remarks>This does not look at type inheritance</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.MarkupValueConverter`1.CheckRequiredParameterType(System.Object,System.Type[])">
+            <summary>
+            Throws an exception if the indicated value isn't in the indicated type
+            </summary>
+            <param name="parameter">parameter being used for conversion</param>
+            <param name="validParameterTypes"></param>
+            <remarks>This does not look at type inheritance</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DictionaryConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Value to be converted</param>
+            <param name="targetType">Will return Default(targetType) if the value is null or not found in the dictionary</param>
+            <param name="parameter">Dictionary to look up values</param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.Converters.DictionaryConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Value to be converted</param>
+            <param name="targetType">Will return Default(targetType) if the value is null or not found in the dictionary</param>
+            <param name="parameter">Dictionary to look up values</param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.FalseToVisibleConverter">
+            <summary>
+            Use this converter to show a control when the bound value is false. Null/true will hide the control.
+            For WPF, the parameter is used to choose between Collapsed and Hidden. The default is Collapsed.
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.Converters.OneWayMarkupValueConverter`1">
+            <summary>
+            Base class for one-way value converters
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Granite.Xaml.Converters.OneWayMarkupValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            This method always throws a NotImplementedException
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.Converters.FalseToVisibleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Boolean</param>
+            <param name="targetType">Visibility</param>
+            <param name="parameter">Visbility to use when the bound value is true or null.</param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NormalizingMarkupValueConverter`1">
+            <summary>
+            Base class for normalizing value converters for which Convert and BackConvert return the same value.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NormalizingMarkupValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            See the documentation for the Convert method on the subclass
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NotConverter">
+            <summary>
+            Inverts a boolean or nullable boolean. This is a two-way converter.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NotConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Boolean</param>
+            <param name="targetType">Boolean</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NotConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NotNullToTrueConverter">
+            <summary>
+            Returns True if the value is not null, otherwise returns false
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NotNullToTrueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="targetType">Boolean</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns>True if the value is not null, oterhwise returns false</returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NotNullToVisibleConverter">
+            <summary>
+            Use this converter to hide a control when the bound value is null or an empty string.
+            For WPF, the parameter is used to choose between Collapsed and Hidden. The default is Collapsed.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NotNullToVisibleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="targetType">Visibility</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NotZeroToTrueConverter">
+            <summary>
+            Converts null to false.
+            Converts 0 to false, other numbers to true.
+            Throws if the type isn't a number, string, or list
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NotZeroToTrueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="targetType">Boolean</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.ZeroToTrueConverter">
+            <summary>
+            Converts null to false.
+            Converts 0 to true, other numbers to false.
+            Throws if the type isn't a number, string, or list
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.ZeroToTrueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Any numeric type</param>
+            <param name="targetType">Boolean</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NotZeroToVisibleConverter">
+            <summary>
+            Converts null to Collapsed.
+            Converts 0 to Collapsed, other numbers to Visible.
+            Throws on non-numeric types
+            For WPF, the parameter is used to choose between Collapsed and Hidden. The default is Collapsed.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NotZeroToVisibleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="targetType">Visibility</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NullToTrueConverter">
+            <summary>
+            Returns True if the value is null, oterhwise returns false
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NullToTrueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Any nullable type</param>
+            <param name="targetType">Boolean</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns>Returns True if the value is null, oterhwise returns false</returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.NullToVisibleConverter">
+            <summary>
+            Use this converter to show a control when the bound value is null or an empty string.
+            For WPF, the parameter is used to choose between Collapsed and Hidden. The default is Collapsed.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.NullToVisibleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Any nullable type</param>
+            <param name="targetType">Visibility</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.StringToLowerConverter">
+            <summary>
+            Converts a string to lowercase. This supports the culture parameter.
+            If used for two-way binding then the value is lowercased in both directions.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.StringToLowerConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">String</param>
+            <param name="targetType">String</param>
+            <param name="parameter">Culture to use for conversion. Optional.</param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.StringToUpperConverter">
+            <summary>
+            Converts a string to uppercase. This supports the culture parameter.
+            If used for two-way binding then the value is uppercased in both directions.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.StringToUpperConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">String</param>
+            <param name="targetType">String</param>
+            <param name="parameter">Culture to use for the conversion. Optional.</param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.TrueToVisibleConverter">
+            <summary>
+            Use this converter to show a control when the bound value is true. Null/false will hide the control.
+            For WPF, the parameter is used to choose between Collapsed and Hidden. The default is Collapsed.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.TrueToVisibleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value">Boolean</param>
+            <param name="targetType">Visibility</param>
+            <param name="parameter">Visibility to use when value is true. Defaults to Collapsed.</param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.Converters.ZeroToVisibleConverter">
+            <summary>
+            Converts null to Collapsed.
+            Converts 0 to Collapsed, other numbers to Visible.
+            Throws on non-numeric types
+            For WPF, the parameter is used to choose between Collapsed and Hidden. The default is Collapsed.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Converters.ZeroToVisibleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="targetType">Visibility</param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Xaml.DelegateCommand`1">
+            <summary>
+            Creates a delegate-based ICommand for which a parameter of type T is needed. 
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})">
+            <summary>
+            Creates a Delegate command
+            </summary>
+            <param name="command"></param>
+            <param name="canExecute"></param>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand`1.CanExecute(`0)">
+            <summary>
+            Defines the method that determines whether the command can execute in its current state.
+            </summary>
+            <returns>
+            true if this command can be executed; otherwise, false.
+            </returns>
+            <param name="parameter">
+            Data used by the command.  If the command does not require data to be passed, this object can be set to null.
+            </param>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand`1.Execute(`0)">
+            <summary>
+            Defines the method to be called when the command is invoked.
+            </summary>
+            <param name="parameter">
+            Data used by the command.  If the command does not require data to be passed, this object can be set to null.
+            </param>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand`1.OnCanExecuteChanged">
+            <summary>
+            Raises a CanExecuteChanged event.
+            </summary>
+        </member>
+        <member name="E:Granite.Xaml.DelegateCommand`1.CanExecuteChanged">
+            <summary>
+            Occurs when changes occur that affect whether or not the command should execute.
+            </summary>
+            <remarks> This event only exists if a CanExecute delegate is provided. Otherwise add/remove are no-ops.</remarks>
+        </member>
+        <member name="T:Granite.Xaml.DelegateCommand">
+            <summary>
+            Creates a delegate-based ICommand for which a command parameter is not needed. 
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+            Creates a Delegate command
+            </summary>
+            <param name="command"></param>
+            <param name="canExecute"></param>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand.CanExecute">
+            <summary>
+            Defines the method that determines whether the command can execute in its current state.
+            </summary>
+            <returns>
+            true if this command can be executed; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand.Execute">
+            <summary>
+            Defines the method to be called when the command is invoked.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.DelegateCommand.OnCanExecuteChanged">
+            <summary>
+            Raises a CanExecuteChanged event.
+            </summary>
+        </member>
+        <member name="E:Granite.Xaml.DelegateCommand.CanExecuteChanged">
+            <summary>
+            Occurs when changes occur that affect whether or not the command should execute.
+            </summary>
+            <remarks> This event only exists if a CanExecute delegate is provided. Otherwise add/remove are no-ops.</remarks>
+        </member>
+        <member name="T:Granite.Xaml.Internals.INavigator">
+            <summary>
+            This is an abstraction over the basic navigation features in WPF, Silverlight, etc.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.INavigator.Navigate(System.Uri)">
+            <summary>
+            Navigate to the indicated URI
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:Granite.Xaml.Internals.INavigator.OpenWebsite(System.Uri)">
+            <summary>
+            Opens a website.
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:Granite.Xaml.Internals.INavigator.GoBack">
+            <summary>
+            Return to the previous View in the navigation journal.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.INavigator.GoForward">
+            <summary>
+            Go to the next view in the navigation journal.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.INavigator.CanGoBack">
+            <summary>
+            Indicates that GoBack can be safely called.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.INavigator.CanGoForward">
+            <summary>
+            Indicates that GoForward can be safely called.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.INavigator.IncludeWebInNavigation">
+            <summary>
+            Indicates whether or not websites are included in the journal
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.Internals.NavigationServiceNavigator">
+            <summary>
+            This INavigator is used for WPF applications that use the NavigationService (e.g. NavigationWindow or Frame)
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.NavigationServiceNavigator.#ctor(System.Windows.Navigation.NavigationService)">
+            <summary>
+            Creates a new NavigationServiceNavigator
+            </summary>
+            <param name="navigationService"></param>
+        </member>
+        <member name="M:Granite.Xaml.Internals.NavigationServiceNavigator.Navigate(System.Uri)">
+            <summary>
+            Navigate to the indicated URI
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:Granite.Xaml.Internals.NavigationServiceNavigator.GoBack">
+            <summary>
+            Return to the previous View in the navigation journal.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.NavigationServiceNavigator.GoForward">
+            <summary>
+            Go to the next view in the navigation journal.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.NavigationServiceNavigator.OpenWebsite(System.Uri)">
+            <summary>
+            Opens a website.
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="P:Granite.Xaml.Internals.NavigationServiceNavigator.CanGoBack">
+            <summary>
+            Indicates that GoBack can be safely called.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.NavigationServiceNavigator.CanGoForward">
+            <summary>
+            Indicates that GoForward can be safely called.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.NavigationServiceNavigator.NavigatorService">
+            <summary>
+            Access the underlying NavigatorService for this Navigator
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.NavigationServiceNavigator.IncludeWebInNavigation">
+            <summary>
+            Indicates whether or not websites are included in the journal. Always false.
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.Internals.SimpleNavigator">
+            <summary>
+            This navigator holds its own journal. You can use it as a mock for testing or as a base-class for a custom navigation scheme.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.SimpleNavigator.Navigate(System.Uri)">
+            <summary>
+            Navigate to the indicated URI
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:Granite.Xaml.Internals.SimpleNavigator.OpenWebsite(System.Uri)">
+            <summary>
+            Opens a website.
+            </summary>
+            <param name="target"></param>
+            <remarks>This does not affect the back stack unless IncludeWebInNavigation is set to true.</remarks>
+        </member>
+        <member name="M:Granite.Xaml.Internals.SimpleNavigator.GoBack">
+            <summary>
+            Return to the previous View in the navigation journal.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.SimpleNavigator.GoForward">
+            <summary>
+            Go to the next view in the navigation journal.
+            </summary>
+        </member>
+        <member name="E:Granite.Xaml.Internals.SimpleNavigator.Navigated">
+            <summary>
+            This event is raised when navigation occurs via Navigate, GoForward, or GoBack
+            </summary>
+            <remarks>
+            If IncludeWebInNavigation is set to True, GoForward and GoBack may raise this event for website URIs.
+            </remarks>
+        </member>
+        <member name="E:Granite.Xaml.Internals.SimpleNavigator.WebsiteOpened">
+            <summary>
+            This event is raised when navigation occurs via OpenWebsite
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.SimpleNavigator.IncludeWebInNavigation">
+            <summary>
+            Indicates whether or not websites are included in the journal
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.SimpleNavigator.CanGoBack">
+            <summary>
+            Indicates that GoBack can be safely called.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.Internals.SimpleNavigator.CanGoForward">
+            <summary>
+            Indicates that GoForward can be safely called.
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.Internals.UriEventArgs">
+            <summary>
+            This is used for events that have a single URI field.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.Internals.UriEventArgs.#ctor(System.Uri)">
+            <summary>
+            Initializes a new instance of the UriEventArgs class.
+            </summary>
+            <param name="uri"></param>
+        </member>
+        <member name="P:Granite.Xaml.Internals.UriEventArgs.Uri">
+            <summary>
+            Uri used to invoke navigation
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.NavigationViewModel">
+            <summary>
+            Base class for view models for navigation-style applications. 
+            </summary>
+        </member>
+        <member name="T:Granite.Xaml.ViewModelBase">
+            <summary>
+            Base class for view models. 
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.ViewModelBase.GetCommand``1(System.Action{``0},System.String)">
+            <summary>
+            Returns an ICommand wrapped around the provided action.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.ViewModelBase.GetCommand(System.Action{System.Object},System.String)">
+            <summary>
+            Returns an ICommand wrapped around the provided action.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.ViewModelBase.GetCommand(System.Action,System.String)">
+            <summary>
+            Returns an ICommand wrapped around the provided action.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.ViewModelBase.GetCommand``1(System.Action{``0},System.Func{``0,System.Boolean},System.String)">
+            <summary>
+            Returns an ICommand wrapped around the provided action.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="command"></param>
+            <param name="canExecute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.ViewModelBase.GetCommand(System.Action{System.Object},System.Func{System.Object,System.Boolean},System.String)">
+            <summary>
+            Returns an ICommand wrapped around the provided action.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="command"></param>
+            <param name="canExecute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.ViewModelBase.GetCommand(System.Action,System.Func{System.Boolean},System.String)">
+            <summary>
+            Returns an ICommand wrapped around the provided action.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="command"></param>
+            <param name="canExecute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.#ctor">
+            <summary>
+            Initializes a new instance of the NavigationViewModel class in an incomplete state.
+            </summary>
+            <remarks>This constructor is normally used when the view-model is created before the navigator that uses it.</remarks>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.#ctor(Granite.Xaml.Internals.INavigator)">
+            <summary>
+            Initializes a new instance of the NavigationViewModel class.
+            </summary>
+            <param name="navigator"></param>
+            <remarks>This constructor is normally used for passing in a mock navigator.</remarks>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.Navigate(System.String)">
+            <summary>
+            Navigate to the indicated view. The view name will be translated into a URI using the NavigationFormatString.
+            </summary>
+            <param name="viewName"></param>
+            <remarks>If the NavigationFormatString is empty the viewName is used unaltered as the URI </remarks>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.Navigate(System.String,System.String)">
+            <summary>
+            Navigate to the indicated view. The view name will be translated into a URI using the NavigationFormatString.
+            </summary>
+            <param name="viewName"></param>
+            <param name="queryString">The querystring is appended to the URI used for navigationS</param>
+            <remarks>If the NavigationFormatString is empty the viewName is used unaltered as the URI </remarks>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.Navigate(System.Type)">
+            <summary>
+            Navigates to the indicated page.
+            </summary>
+            <param name="pageType"></param>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.OpenWebsite(System.String)">
+            <summary>
+            Opens the indicated website in an external window.
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.OpenWebsite(System.Uri)">
+            <summary>
+            Opens the indicated website in an external window.
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.#ctor(System.Windows.Navigation.NavigationService)">
+            <summary>
+            Initializes a new instance of the NavigationViewModel class.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.#ctor(System.Windows.Navigation.NavigationWindow)">
+            <summary>
+            Initializes a new instance of the NavigationViewModel class.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.#ctor(System.Windows.Controls.Frame)">
+            <summary>
+            Initializes a new instance of the NavigationViewModel class.
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.SetNavigator(System.Windows.Navigation.NavigationService)">
+            <summary>
+            Changes the navigator associated with this view-model
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.SetNavigator(System.Windows.Navigation.NavigationWindow)">
+            <summary>
+            Changes the navigator associated with this view-model
+            </summary>
+        </member>
+        <member name="M:Granite.Xaml.NavigationViewModel.SetNavigator(System.Windows.Controls.Frame)">
+            <summary>
+            Changes the navigator associated with this view-model
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.NavigationViewModel.NavigationFormatString">
+            <summary>
+            This is the format string used to map views to a XAML URI.
+            By default it uses a format needed to load pages from a folder named "Views".
+            </summary>
+            <remarks>To disable view-name formatting set this value to null.</remarks>
+        </member>
+        <member name="P:Granite.Xaml.NavigationViewModel.Navigator">
+            <summary>
+            This provides access to basic navigation functions. Platform specific navigation functions are not exposed by this interface, but they may be exposed by the concrete type.
+            </summary>
+        </member>
+        <member name="P:Granite.Xaml.NavigationViewModel.NavigateCommand">
+            <summary>
+            The commandParameter associated with this command is used as the target view name
+            </summary>
+        </member>
+    </members>
+</doc>

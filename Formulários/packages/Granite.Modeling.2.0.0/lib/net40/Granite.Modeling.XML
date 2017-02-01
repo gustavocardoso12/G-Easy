@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Granite.Modeling</name>
+    </assembly>
+    <members>
+        <member name="T:Granite.Modeling.Internals.ChangeTrackingPropertyBag">
+            <summary>
+            Property bag with basic change tracking capabilities.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.Internals.PropertyBagBase">
+            <summary>
+            This is the template for a model's backing store.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.#ctor(System.Object)">
+            <summary>
+            This is the template for a model's backing store.
+            </summary>
+            <param name="owner">Owning model, used to fetch metadata</param>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.GetNew``1(System.Func{``0},System.String)">
+            <summary>
+            Fetches a value, creating it if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type</typeparam>
+            <param name="creationFunction">Function to execute if the property doesn't already exist.</param>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Executing the default function will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.GetNew``1(System.String)">
+            <summary>
+            Fetches a value, creating it if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type that has a parameterless constructor</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Executing the constructor will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.Get``1(System.String)">
+            <summary>
+            Fetches a value, returning Default(T) if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Storing the default value will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.GetDefault``1(``0,System.String)">
+            <summary>
+            Fetches a value, using the default value it if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type</typeparam>
+            <param name="defaultValue">Default value to use</param>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Storing the default value will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.GetValue(System.String)">
+            <summary>
+            Implmentors need to override this to return the indicated value.
+            </summary>
+            <param name="propertyName">Name of the property to fetch.</param>
+            <returns>The indicated value or System.Reflection.Missing if the value isn't defined.</returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.IsDefined(System.String)">
+            <summary>
+            This property indicates whether or not the assoicated property was created.
+            </summary>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.OnRevalidateObject">
+            <summary>
+            Triggers the RevalidateObject event.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.OnRevalidateProperty(Granite.Metadata.PropertyMetadata)">
+            <summary>
+            Triggers the RevalidateProperty event.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.RevalidateAll">
+            <summary>
+            Uses the property metadata to trigger validation on all model properties. Then requests validation on the object iteself.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.Set(System.Object,Granite.Modeling.Internals.PropertySetModes,System.String)">
+            <summary>
+            Implementors need to override this to save the indicated value.
+            </summary>
+            <param name="value">The value to be saved. A null will set the value to null. System.Reflection.Missing will delete the field entirely.</param>
+            <param name="mode">Indicates special handling for the action.</param>
+            <param name="propertyName">Name of property to update</param>
+            <returns>True if the value actually changed</returns>
+            <remarks>This will create the property if it doesn't already exist</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.Set(System.Object,System.String)">
+            <summary>
+            Set the indicated property to the value.
+            If the value doesn't match the previous value, or if there is no previous value, raise a property changed notification.
+            </summary>
+            <param name="propertyName">Name of property to be created/updated</param>
+            <param name="value">Value to be saved.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">An ArgumentOutOfRangeException is thrown if System.Reflection.Missing is passed as the value.</exception>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.OnPropertyChanged(Granite.Metadata.PropertyMetadata)">
+            <summary>
+            Triggers the PropertyChanged event.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBagBase.OnPropertyChanged(System.String)">
+            <summary>
+            Triggers the PropertyChanged event.
+            </summary>
+        </member>
+        <member name="E:Granite.Modeling.Internals.PropertyBagBase.PropertyChanged">
+            <summary>
+            This fires for each changed property.
+            </summary>
+        </member>
+        <member name="E:Granite.Modeling.Internals.PropertyBagBase.RevalidateObject">
+            <summary>
+            This fires after one or more properties have been changed and their corresponding RevalidateProperty events have been handled. 
+            </summary>
+        </member>
+        <member name="E:Granite.Modeling.Internals.PropertyBagBase.RevalidateProperty">
+            <summary>
+            This fires after one or more properties have been changed. 
+            </summary>
+        </member>
+        <member name="P:Granite.Modeling.Internals.PropertyBagBase.Metadata">
+            <summary>
+            Cached metadata for the associated model.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ChangeTrackingPropertyBag.#ctor(System.Object)">
+            <summary>
+            Property bag with basic change tracking capabilities.
+            </summary>
+            <param name="owner"></param>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ChangeTrackingPropertyBag.AcceptChanges(System.Boolean)">
+            <summary>
+            Marks all fields as unchanged by storing them in the original values collection.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ChangeTrackingPropertyBag.GetValue(System.String)">
+            <summary>
+            Implmentors need to override this to return the indicated value.
+            </summary>
+            <param name="propertyName">Name of the property to fetch.</param>
+            <returns>The indicated value or System.Reflection.Missing if the value isn't defined.</returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ChangeTrackingPropertyBag.IsDefined(System.String)">
+            <summary>
+            This property indicates whether or not the assoicated property was created.
+            </summary>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ChangeTrackingPropertyBag.RejectChanges(System.Boolean)">
+            <summary>
+            Replaces the current values collection with the original values collection.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ChangeTrackingPropertyBag.Set(System.Object,Granite.Modeling.Internals.PropertySetModes,System.String)">
+            <summary>
+            Implementors need to override this to save the indicated value.
+            </summary>
+            <param name="value">The value to be saved. A null will set the value to null. System.Reflection.Missing will delete the field entirely.</param>
+            <param name="mode">Indicates special handling for the action.</param>
+            <param name="propertyName">Name of property to update</param>
+            <returns>True if the value actually changed</returns>
+            <remarks>This will create the property if it doesn't already exist</remarks>
+        </member>
+        <member name="P:Granite.Modeling.Internals.ChangeTrackingPropertyBag.Values">
+            <summary>
+            Access to the values dictionary for sub-classes. Extreme care must be taken when working this this dictionary directly, as events will not be automatically fired.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.Internals.CommonProperties">
+            <summary>
+            These are used for property changed notifications so that new objects don't need to be allocated.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.Internals.EditableObjectPropertyBag">
+            <summary>
+            Property bag with two-level change tracking capabilities.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.EditableObjectPropertyBag.#ctor(System.Object)">
+            <summary>
+            Property bag with two-level change tracking capabilities.
+            </summary>
+            <param name="owner"></param>
+        </member>
+        <member name="M:Granite.Modeling.Internals.EditableObjectPropertyBag.BeginEdit">
+            <summary>
+            This creates a checkpoint using the current values. The checkpoint remains available until EndEdit or CancelEdit is called.
+            </summary>
+            <remarks>Calling this method multiple times will have no effect.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.EditableObjectPropertyBag.CancelEdit">
+            <summary>
+            This reverts all changes to the checkpoint values. CancelEdit is called recursively on any value in the original list. 
+            </summary>
+            <remarks>Calling this when there are no matching BeginEdit will have no effect.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.EditableObjectPropertyBag.EndEdit">
+            <summary>
+            This removed one level of checkpoint values. 
+            EndEdit is called recursively on any value in the list of checkpoint values. 
+            </summary>
+            <remarks>Calling this when there are no matching BeginEdit will have no effect.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.EditableObjectPropertyBag.AcceptChanges(System.Boolean)">
+            <summary>
+            Marks all fields as unchanged by storing them in the original values collection.
+            </summary>
+            <remarks>Calling this ends all pending edits.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.EditableObjectPropertyBag.RejectChanges(System.Boolean)">
+            <summary>
+            Replaces the current values collection with the original values collection.
+            </summary>
+            <remarks>Calling this cancels all pending edits.</remarks>
+        </member>
+        <member name="P:Granite.Modeling.Internals.EditableObjectPropertyBag.IsEditing">
+            <summary>
+            Currently editing
+            </summary>
+        </member>
+        <member name="P:Granite.Modeling.Internals.EditableObjectPropertyBag.BlockReentrant">
+            <summary>
+            Used to prevent reentrant calls to Begin/End/Cancel Edit
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ErrorsDictionary.Clear">
+            <summary>
+            Clears all errors
+            </summary>
+            <returns>Returns True if this actually removed any errors from the collection.</returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ErrorsDictionary.SetErrors(System.String,System.Collections.Generic.IList{System.ComponentModel.DataAnnotations.ValidationResult})">
+            <summary>
+            Sets the errors at the propery level
+            </summary>
+            <param name="propertyName"></param>
+            <param name="errors"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ErrorsDictionary.SetErrors(System.Collections.Generic.IList{System.ComponentModel.DataAnnotations.ValidationResult},System.Collections.Generic.HashSet{System.String}@)">
+            <summary>
+            Set the errors at the object level
+            </summary>
+            <param name="errors"></param>
+            <param name="affectedProperties"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Granite.Modeling.Internals.ErrorsDictionaryUpdateType">
+            <summary>
+            This is used to indicate whether or not the errors collection was actually updated. 
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.Internals.PropertyBag">
+            <summary>
+            This is the simplest implementation of PropertyBagBase. It supports normal property-change nofifications and validation events.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBag.#ctor(System.Object)">
+            <summary>
+            This is the simplest implementation of PropertyBagBase. It supports normal property-change nofifications and validation events.
+            </summary>
+            <param name="owner">Pass-through to PropertyBagBase</param>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBag.GetValue(System.String)">
+            <summary>
+            Implmentors need to override this to return the indicated value.
+            </summary>
+            <param name="propertyName">Name of the property to fetch.</param>
+            <returns>The indicated value or System.Reflection.Missing if the value isn't defined.</returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBag.IsDefined(System.String)">
+            <summary>
+            This property indicates whether or not the assoicated property was created.
+            </summary>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.Internals.PropertyBag.Set(System.Object,Granite.Modeling.Internals.PropertySetModes,System.String)">
+            <summary>
+            Implementors need to override this to save the indicated value.
+            </summary>
+            <param name="value">The value to be saved. A null will set the value to null. System.Reflection.Missing will delete the field entirely.</param>
+            <param name="mode">Indicates special handling for the action. Ignores SetAsOriginal.</param>
+            <param name="propertyName">Name of property to update</param>
+            <remarks>This will create the property if it doesn't already exist</remarks>
+        </member>
+        <member name="T:Granite.Modeling.Internals.PropertySetModes">
+            <summary>
+            Used to indicate what special behaviors are needed when setting a value in PropertyBagBase.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.None">
+            <summary>
+            No special effects or events.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.RaiseChangedEvent">
+            <summary>
+            "Causes the model to raise its property changed event")
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.SetAsOriginal">
+            <summary>
+            For property bags that support it, treat the new value as the original, unchanged value. Primarily used for lazy-loading properties.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.ValidateProperty">
+            <summary>
+            Causes the model to revalidate the indicated property.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.ValidateObject">
+            <summary>
+            Causes the model to revalidate the object. Property-level validators are not run.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.FixCasing">
+            <summary>
+            The property name may have the wrong casing or otherwise need to be mapped.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.Internals.PropertySetModes.ParseType">
+            <summary>
+            If the value is a string, convert it to the appropriate type.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.Internals.ValidationResultEqualityComparer">
+            <summary>
+            Used to compare ValidationResults
+            </summary>
+            <remarks>
+            This does not properly support subclasses 
+            </remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ValidationResultEqualityComparer.Equals(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationResult)">
+            <summary>
+            Performs a value comparison by looking at the error message and member names
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+            <remarks>WARNING: The result of Equals can change! It is based on ValidationResult, which unfortunately isn't immutable.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.Internals.ValidationResultEqualityComparer.GetHashCode(System.ComponentModel.DataAnnotations.ValidationResult)">
+            <summary>
+            Returns a hash code derived from the error message.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+            <remarks>WARNING: The result of GetHashCode can change! It is based on ValidationResult, which unfortunately isn't immutable.</remarks>
+        </member>
+        <member name="F:Granite.Modeling.Internals.ValidationResultEqualityComparer.Default">
+            <summary>
+            Returns the default instance of the comparer.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.ChangeTrackingModelBase">
+            <summary>
+            This ModelBase tracks which fields have changed since the last time AcceptChanges or RejectChanges was called. The purpose of this ModelBase is to easy to determine which objects have unsaved changes.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.ModelBase`1">
+            <summary>
+            A base class for models and entities.
+            </summary>
+            <typeparam name="TPropertyTracking">The type of property tracking desired.</typeparam>
+        </member>
+        <member name="T:Granite.Modeling.ModelBase">
+            <summary>
+            Abstract base class to deal with the limitations of generics
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.AddHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Adds a weak event handler.
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.RemoveHandler(Granite.Eventing.IListener{System.ComponentModel.PropertyChangedEventArgs})">
+            <summary>
+            Removes a weak event handler.
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.InvokePropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Triggers the PropertyChanged event.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.OnValidateObject(Granite.DataAnnotations.ValidationResultCollection)">
+            <summary>
+            Override this method to add imperative validation at the object level.
+            </summary>
+            <param name="results">A collection of the declarative validation errors. You may add and remove errors from this collection.</param>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.OnValidateProperty(System.String,Granite.DataAnnotations.ValidationResultCollection)">
+            <summary>
+            Override this method to add imperative validation at the property level.
+            </summary>
+            <param name="propertyName">The name of the property being validated.</param>
+            <param name="results">A collection of the declarative validation errors. You may add and remove errors from this collection.</param>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.OnErrorsChanged(System.String,Granite.Modeling.Internals.ErrorsDictionaryUpdateType)">
+            <summary>
+            Invoke this method to signal the events associated with changing the errors dictionary. The parameter updateType is returned by the methods on ErrorsDictionary.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="updateType"></param>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase.OnErrorsChanged(System.String)">
+            <summary>
+            Used to manually invoke the ErrorsChanged event.
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="E:Granite.Modeling.ModelBase.ErrorsChanged">
+            <summary>
+            Raised when the errors collection has changed. 
+            </summary>
+            <remarks>This may be fired even when no actual change has occurred.</remarks>
+        </member>
+        <member name="E:Granite.Modeling.ModelBase.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.ModelBase`1.m_Properties">
+            <summary>
+            Backing store for properties
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.#ctor">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking.
+            </summary>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.GetNew``1(System.String)">
+            <summary>
+            Fetches a value, creating it if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type that has a parameterless constructor</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Executing the constructor will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.GetNew(System.String)">
+            <summary>
+            Fetches a string value, returning String.Empty if it doesn't exist.
+            </summary>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>This is a special care for strings, as we usually don't want them to default to null. This is the equivalent of calling GetDefault<string>("", propertyName) </string></remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.GetNew``1(System.Func{``0},System.String)">
+            <summary>
+            Fetches a value, creating it if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type</typeparam>
+            <param name="creationFunction">Function to execute if the property doesn't already exist.</param>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Executing the default function will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.GetDefault``1(``0,System.String)">
+            <summary>
+            Fetches a value, using the default value it if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type</typeparam>
+            <param name="defaultValue">Default value to use</param>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Storing the default value will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.Get``1(System.String)">
+            <summary>
+            Fetches a value, returning Default(T) if it doesn't exist.
+            </summary>
+            <typeparam name="T">Expected type</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Storing the default value will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.Set(System.Object,System.String)">
+            <summary>
+            Set the indicated property to the value.
+            If the value doesn't match the previous value, or if there is no previous value, raise a property changed notification.
+            </summary>
+            <param name="value">Value to be saved.</param>
+            <param name="propertyName">Name of property to be created/updated</param>
+            <returns>True is the value actually changed.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">An ArgumentOutOfRangeException is thrown if System.Reflection.Missing is passed as the value.</exception>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.Validate">
+            <summary>
+            This forces the object to be completely revalidated.
+            </summary>
+            <returns>True if the object has no errors</returns>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.ClearErrors">
+            <summary>
+            Clears the error collections and the HasErrors property
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.OnPropertyChanged(System.String)">
+            <summary>
+            Triggers the PropertyChanged event.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.GetErrors">
+            <summary>
+            Returns an array of object-level errors.
+            </summary>
+            <remarks>Call Validate() to refresh this property.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelBase`1.GetErrors(System.String)">
+            <summary>
+            Returns an array of property-level errors.
+            </summary>
+            <param name="propertyName">Null or String.Empty will return the object-level errors</param>
+            <remarks>Call Validate() to refresh this property.</remarks>
+        </member>
+        <member name="P:Granite.Modeling.ModelBase`1.Properties">
+            <summary>
+            Returns the underlying property bag
+            </summary>
+        </member>
+        <member name="P:Granite.Modeling.ModelBase`1.HasErrors">
+            <summary>
+            Returns True if there are any errors.
+            </summary>
+            <remarks>Call Validate() to refresh this property</remarks>
+        </member>
+        <member name="P:Granite.Modeling.ModelBase`1.System#ComponentModel#IDataErrorInfo#Error">
+            <summary>
+            Returns the errors associated with the object. Does not include property level errors.
+            </summary>
+        </member>
+        <member name="P:Granite.Modeling.ModelBase`1.System#ComponentModel#IDataErrorInfo#Item(System.String)">
+            <summary>
+            Returns the errors associated with a specific property
+            </summary>
+            <param name="columnName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelBase.#ctor">
+            <summary>
+            This ModelBase tracks which fields have changed since the last time Checkpoint or Revert was called.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelBase.IsChangedGraph">
+            <summary>
+            Walk the object graph, looking for changed items.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelBase.AcceptChanges">
+            <summary>
+            Marks all fields as unchanged and clears the IsChanged flag.
+            </summary>
+            <remarks>This will call AcceptChanges on properties that implement IChangeTracking</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelBase.RejectChanges">
+            <summary>
+            Discards all pending changes and reverts to the values used the last time AcceptChanges was called.
+            </summary>
+            <remarks>This will call RejectChanges on properties that implement IRevertibleChangeTracking</remarks>
+        </member>
+        <member name="P:Granite.Modeling.ChangeTrackingModelBase.IsChanged">
+            <summary>
+            Returns True if any fields were modified since the last call to AcceptChanges. This does not walk the object graph.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.ChangeTrackingModelCollection`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModelType"></typeparam>
+        </member>
+        <member name="T:Granite.Modeling.ModelCollection`2">
+            <summary>
+            A base class for collections of models and entities.
+            </summary>
+            <typeparam name="T">The type of object being stored</typeparam>
+            <typeparam name="TPropertyTracking">The type of property tracking desired.</typeparam>
+        </member>
+        <member name="F:Granite.Modeling.ModelCollection`2.m_Properties">
+            <summary>
+            Backing store for properties
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.#ctor">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking.
+            </summary>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.#ctor(System.Collections.Generic.List{`0})">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking and populates it using the supplied list
+            </summary>
+            <param name="list">The list from which the elements are copied.</param>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking and populates it using the supplied collection
+            </summary>
+            <param name="collection">The collection from which the elements are copied.</param>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.GetErrors">
+            <summary>
+            Returns an array of object-level errors.
+            </summary>
+            <remarks>Call Validate() to refresh this property.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.GetErrors(System.String)">
+            <summary>
+            Returns an array of property-level errors.
+            </summary>
+            <param name="propertyName">Null or String.Empty will return the object-level errors</param>
+            <remarks>Call Validate() to refresh this property.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.OnErrorsChanged(System.String,Granite.Modeling.Internals.ErrorsDictionaryUpdateType)">
+            <summary>
+            Invoke this method to signal the events associated with changing the errors dictionary. The parameter updateType is returned by the methods on ErrorsDictionary.
+            </summary>
+            <param name="propertyName"></param>
+            <param name="updateType"></param>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.OnErrorsChanged(System.String)">
+            <summary>
+            Used to manually invoke the ErrorsChanged event.
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.OnValidateObject(Granite.DataAnnotations.ValidationResultCollection)">
+            <summary>
+            Override this method to add imperative validation at the object level.
+            </summary>
+            <param name="results">A collection of the declarative validation errors. You may add and remove errors from this collection.</param>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.OnValidateProperty(System.String,Granite.DataAnnotations.ValidationResultCollection)">
+            <summary>
+            Override this method to add imperative validation at the property level.
+            </summary>
+            <param name="propertyName">The name of the property being validated.</param>
+            <param name="results">A collection of the declarative validation errors. You may add and remove errors from this collection.</param>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.Validate">
+            <summary>
+            This forces the object to be completely revalidated.
+            </summary>
+            <returns>True if the object has no errors</returns>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.ClearErrors">
+            <summary>
+            Clears the error collections and the HasErrors property
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.GetNew``1(System.String)">
+            <summary>
+            Fetches a value, creating it if it doesn't exist.
+            </summary>
+            <typeparam name="TValue">Expected type that has a parameterless constructor</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Executing the constructor will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.GetNew``1(System.Func{``0},System.String)">
+            <summary>
+            Fetches a value, creating it if it doesn't exist.
+            </summary>
+            <typeparam name="TValue">Expected type</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <param name="creationFunction">Function to execute if the property doesn't already exist.</param>
+            <returns></returns>
+            <remarks>Executing the default function will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.GetNew(System.String)">
+            <summary>
+            Fetches a string value, returning String.Empty if it doesn't exist.
+            </summary>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>This is a special care for strings, as we usually don't want them to default to null. This is the equivalent of calling GetDefault<string>("", propertyName) </string></remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.GetDefault``1(``0,System.String)">
+            <summary>
+            Fetches a value, using the default value it if it doesn't exist.
+            </summary>
+            <typeparam name="TValue">Expected type</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <param name="defaultValue">Default value to use</param>
+            <returns></returns>
+            <remarks>Storing the default value will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.Get``1(System.String)">
+            <summary>
+            Fetches a value, returning Default(TValue) if it doesn't exist.
+            </summary>
+            <typeparam name="TValue">Expected type</typeparam>
+            <param name="propertyName">Case-sensitive property name</param>
+            <returns></returns>
+            <remarks>Storing the default value will trigger validation but not a property-changed event.</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ModelCollection`2.Set(System.Object,System.String)">
+            <summary>
+            Set the indicated property to the value.
+            If the value doesn't match the previous value, or if there is no previous value, raise a property changed notification.
+            </summary>
+            <param name="value">Value to be saved.</param>
+            <param name="propertyName">Name of property to be created/updated</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">An ArgumentOutOfRangeException is thrown if System.Reflection.Missing is passed as the value.</exception>
+        </member>
+        <member name="E:Granite.Modeling.ModelCollection`2.ErrorsChanged">
+            <summary>
+            Raised when the the errors collection has changed. 
+            </summary>
+            <remarks>This may be fired even when no actual change has occurred.</remarks>
+        </member>
+        <member name="P:Granite.Modeling.ModelCollection`2.HasErrors">
+            <summary>
+            Returns True if there are any errors.
+            </summary>
+            <remarks>Call Validate() to refresh this property</remarks>
+        </member>
+        <member name="P:Granite.Modeling.ModelCollection`2.Properties">
+            <summary>
+            Returns the underlying property bag
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelCollection`1.#ctor">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking.
+            </summary>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelCollection`1.#ctor(System.Collections.Generic.List{`0})">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking and populates it using the supplied collection
+            </summary>
+            <param name="list">The list from which the elements are copied.</param>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking and populates it using the supplied collection
+            </summary>
+            <param name="collection">The collection from which the elements are copied.</param>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelCollection`1.IsChangedGraph">
+            <summary>
+            Walk the object graph, looking for changed items in properties and the collection.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelCollection`1.AcceptChanges">
+            <summary>
+            Marks all fields as unchanged and clears the IsChanged flag.
+            </summary>
+            <remarks>This will call AcceptChanges on properties and collection items that implement IChangeTracking</remarks>
+        </member>
+        <member name="M:Granite.Modeling.ChangeTrackingModelCollection`1.RejectChanges">
+            <summary>
+            Discards all pending changes and reverts to the values used the last time AcceptChanges was called.
+            </summary>
+            <remarks>This will call RejectChanges on properties and collection items from the original collection that implement IRevertibleChangeTracking</remarks>
+        </member>
+        <member name="P:Granite.Modeling.ChangeTrackingModelCollection`1.IsChanged">
+            <summary>
+            Returns True if any fields were modified since the last call to Checkpoint. This also checks items that implement IChangeTracking.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.EditableObjectModelBase">
+            <summary>
+            This ModelBase adds the IEditableObject interface to the ChangeTrackingModelBase. The IEditableObject methods are designed for dialogs with ok/cancel semantics. Use the IChangeTracking to track unsaved changes.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.BeginEdit">
+            <summary>
+            Begins an edit on an object.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.CancelEdit">
+            <summary>
+            Discards changes since the last <see cref="M:System.ComponentModel.IEditableObject.BeginEdit" /> call.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.EndEdit">
+            <summary>
+            Pushes changes since the last <see cref="M:System.ComponentModel.IEditableObject.BeginEdit" /> or <see cref="M:System.ComponentModel.IBindingList.AddNew" /> call into the underlying object.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.IsChangedGraph">
+            <summary>
+            Walk the object graph, looking for changed items.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.AcceptChanges">
+            <summary>
+            Marks all fields as unchanged and clears the IsChanged flag.
+            </summary>
+            <remarks>This will call AcceptChanges on properties that implement IChangeTracking</remarks>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelBase.RejectChanges">
+            <summary>
+            Discards all pending changes and reverts to the values used the last time AcceptChanges was called.
+            </summary>
+            <remarks>This will call RejectChanges on properties that implement IRevertibleChangeTracking</remarks>
+        </member>
+        <member name="P:Granite.Modeling.EditableObjectModelBase.IsChanged">
+            <summary>
+            Returns True if any fields were modified since the last call to AcceptChanges. This does not walk the object graph.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.EditableObjectModelCollection`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModelType"></typeparam>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.#ctor">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking.
+            </summary>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.#ctor(System.Collections.Generic.List{`0})">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking and populates it using the supplied collection
+            </summary>
+            <param name="list">The list from which the elements are copied.</param>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates a model by auto-constructing the property bag defined by TPropertyTracking and populates it using the supplied collection
+            </summary>
+            <param name="collection">The collection from which the elements are copied.</param>
+            <remarks>Requires TPropertyTracking have a public constructor that accepts an Object</remarks>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.IsChangedGraph">
+            <summary>
+            Walk the object graph, looking for changed items in properties and the collection.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.AcceptChanges">
+            <summary>
+            Marks all fields as unchanged and clears the IsChanged flag.
+            </summary>
+            <remarks>This will call AcceptChanges on properties and collection items that implement IChangeTracking</remarks>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.RejectChanges">
+            <summary>
+            Discards all pending changes and reverts to the values used the last time AcceptChanges was called.
+            </summary>
+            <remarks>This will call RejectChanges on properties and collection items from the original collection that implement IRevertibleChangeTracking</remarks>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.BeginEdit">
+            <summary>
+            Begins an edit on an object.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.CancelEdit">
+            <summary>
+            Discards changes since the last <see cref="M:System.ComponentModel.IEditableObject.BeginEdit" /> call.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.EditableObjectModelCollection`1.EndEdit">
+            <summary>
+            Pushes changes since the last <see cref="M:System.ComponentModel.IEditableObject.BeginEdit" /> or <see cref="M:System.ComponentModel.IBindingList.AddNew" /> call into the underlying object.
+            </summary>
+        </member>
+        <member name="P:Granite.Modeling.EditableObjectModelCollection`1.IsChanged">
+            <summary>
+            Returns True if any fields were modified since the last call to Checkpoint. This also checks items that implement IChangeTracking.
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.SimpleModelBase">
+            <summary>
+            ModelBase using the default property bag implementation.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.SimpleModelBase.#ctor">
+            <summary>
+            Creates a model using the default property bag implementation..
+            </summary>
+        </member>
+        <member name="T:Granite.Modeling.SimpleModelCollection`1">
+            <summary>
+            ModelCollection using the default property bag implementation.
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.SimpleModelCollection`1.#ctor">
+            <summary>
+            Creates a model collection using the default property bag implementation..
+            </summary>
+        </member>
+        <member name="M:Granite.Modeling.SimpleModelCollection`1.#ctor(System.Collections.Generic.List{`0})">
+            <summary>
+            Creates a model collection using the default property bag implementation..
+            </summary>
+            <param name="list">The list from which the elements are copied.</param>
+        </member>
+        <member name="M:Granite.Modeling.SimpleModelCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates a model collection using the default property bag implementation..
+            </summary>
+            <param name="collection">The collection from which the elements are copied.</param>
+        </member>
+        <member name="T:Granite.Modeling.UpdateMode">
+            <summary>
+            This enumeration is used to indicate how AcceptChanges calls will be propogated
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.UpdateMode.None">
+            <summary>
+            Do not mark changes as accepted
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.UpdateMode.AcceptChanges">
+            <summary>
+            Recursively mark changes as accepted
+            </summary>
+        </member>
+        <member name="F:Granite.Modeling.UpdateMode.AcceptLocalChanges">
+            <summary>
+            Mark changes as accepted, but not on child objects
+            </summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.CallerMemberNameAttribute">
+            <summary>
+            Allows you to obtain the method or property name of the caller to the method.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataErrorsChangedEventArgs">
+            Summary:
+                Provides data for the System.ComponentModel.INotifyDataErrorInfo.ErrorsChanged
+                event.
+        </member>
+        <member name="M:System.ComponentModel.DataErrorsChangedEventArgs.#ctor(System.String)">
+             Summary:
+                 Initializes a new instance of the System.ComponentModel.DataErrorsChangedEventArgs
+                 class.
+            
+             Parameters:
+               propertyName:
+                 The name of the property for which the errors changed, or null or System.String.Empty
+                 if the errors affect multiple properties.
+        </member>
+        <member name="P:System.ComponentModel.DataErrorsChangedEventArgs.PropertyName">
+             Summary:
+                 Gets the name of the property for which the errors changed, or null or System.String.Empty
+                 if the errors affect multiple properties.
+            
+             Returns:
+                 The name of the affected property, or null or System.String.Empty if the
+                 errors affect multiple properties.
+        </member>
+    </members>
+</doc>

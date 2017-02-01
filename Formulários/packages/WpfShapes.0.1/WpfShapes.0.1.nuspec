@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WpfShapes</id>
+    <version>0.1</version>
+    <title>WPF Shapes</title>
+    <authors>Mark Heath</authors>
+    <owners>Mark Heath</owners>
+    <licenseUrl>http://wpfshapes.codeplex.com/license</licenseUrl>
+    <projectUrl>http://wpfshapes.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Collection of WPF shape controls</description>
+    <copyright>Copyright Mark Heath 2012</copyright>
+    <tags>WPF XAML Shapes Controls</tags>
+  </metadata>
+</package>
